@@ -1,11 +1,36 @@
 [
   structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[1,0+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[1,0+11])
+    Tstr_open Fresh "Script!"
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[3,13+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[5,44+1])
     Tstr_value Nonrec
     [
       <def>
-        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[1,0+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[1,0+5])
-          Tpat_var "a/1002"
-        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[1,0+8]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[1,0+11])
-          Texp_constant Const_int 123
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[3,13+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[3,13+7])
+          Tpat_var "foo/1002"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[3,13+10]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[5,44+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[3,13+10]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[3,13+12])
+                Tpat_construct "()"
+                []
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[4,31+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[4,31+12])
+                attribute "ns.braces"
+                  []
+                Texp_apply
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[4,31+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[4,31+6])
+                  Texp_ident "Script!.fooo"
+                [
+                  <arg>
+                    Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[4,31+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[4,31+8])
+                      Texp_constant Const_int 1
+                  <arg>
+                    Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[4,31+10]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[4,31+11])
+                      Texp_constant Const_int 2
+                ]
+          ]
     ]
 ]

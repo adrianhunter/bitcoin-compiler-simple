@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm-watch test:all",
+    "build": "rescript build -w",
+
     "test:all": "rescript clean && rescript build"
   },
   "author": "",
@@ -16,9 +18,11 @@
   "watch": {
     "test:all": {
       "patterns": [
-        "../_esy/default/store/b"
+        "../_esy/default/store/b",
+        "./src"
+
       ],
-      "extensions": "exe",
+      "extensions": ["exe", "res"],
       "ignore": "node_modules",
       "delay": 500,
       "quiet": true,

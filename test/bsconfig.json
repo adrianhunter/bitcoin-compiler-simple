@@ -20,7 +20,7 @@
 
     "suffix": ".bs.js",
     "warnings": {
-      "number": "+A-9",
+      "number": "+A-9-102-27-33-44",
       "error": "+101"
     },
     "js-post-build": {

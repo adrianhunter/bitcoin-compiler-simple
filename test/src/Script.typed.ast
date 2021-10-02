@@ -1,0 +1,2325 @@
+[
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[4,60+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+5]..[1,0+22])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+5]..[1,0+22])
+                  Pexp_array
+                  [
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+6]..[1,0+12])
+                      Pexp_construct "OP_SUB" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+6]..[1,0+12])
+                      None
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+14]..[1,0+21])
+                      Pexp_construct "OP_DUDE" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+14]..[1,0+21])
+                      None
+                  ]
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+8])
+          Tpat_var "fooo/1002"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[4,60+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+13])
+                Tpat_var "a/1003"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[4,60+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+16])
+                      Tpat_var "b/1004"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+11])
+                      Texp_letmodule "J/1006"
+                      module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+6])
+                        Tmod_structure
+                        [
+                          structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+6])
+                            Tstr_primitive
+                            value_description unsafe_expr/1005 (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+6])
+                              core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                Ttyp_arrow
+                                Nolabel
+                                core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                  Ttyp_any
+                                core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                  Ttyp_any
+                              [
+                                "#raw_expr"
+                              ]
+                        ]
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+6])
+                        Texp_apply
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+6])
+                          Texp_ident "J/1006.unsafe_expr"
+                        [
+                          <arg>
+                            Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+11])
+                              Texp_constant Const_string("{}",None)
+                        ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[11,120+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[14,170+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[11,120+5]..[11,120+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[11,120+5]..[11,120+11])
+                  Pexp_construct "OP_ADD" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[11,120+5]..[11,120+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+7])
+          Tpat_var "add/1007"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+10]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[14,170+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+16])
+                Tpat_var "stack/1008"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+18]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[14,170+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+18]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+19])
+                      Tpat_var "a/1009"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+21]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[14,170+1])
+                      Texp_function
+                      Nolabel
+                      [
+                        <case>
+                          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+21]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+22])
+                            Tpat_var "b/1010"
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[13,162+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[13,162+7])
+                            attribute "ns.braces"
+                              []
+                            Texp_ident "stack/1008"
+                      ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[15,172+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[18,217+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[15,172+5]..[15,172+12])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[15,172+5]..[15,172+12])
+                  Pexp_construct "OP_1ADD" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[15,172+5]..[15,172+12])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[16,186+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[16,186+8])
+          Tpat_var "add1/1011"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[16,186+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[18,217+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[16,186+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[16,186+12])
+                Tpat_var "a/1012"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+11])
+                Texp_letmodule "J/1014"
+                module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+6])
+                  Tmod_structure
+                  [
+                    structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+6])
+                      Tstr_primitive
+                      value_description unsafe_expr/1013 (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+6])
+                        core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                          Ttyp_arrow
+                          Nolabel
+                          core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                            Ttyp_any
+                          core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                            Ttyp_any
+                        [
+                          "#raw_expr"
+                        ]
+                  ]
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+6])
+                  Texp_apply
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+6])
+                    Texp_ident "J/1014.unsafe_expr"
+                  [
+                    <arg>
+                      Nolabel
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+11])
+                        Texp_constant Const_string("{}",None)
+                  ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[19,219+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[22,263+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[19,219+5]..[19,219+12])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[19,219+5]..[19,219+12])
+                  Pexp_construct "OP_SUB1" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[19,219+5]..[19,219+12])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[20,233+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[20,233+8])
+          Tpat_var "sub1/1015"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[20,233+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[22,263+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[20,233+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[20,233+16])
+                Tpat_var "stack/1016"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[21,255+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[21,255+7])
+                attribute "ns.braces"
+                  []
+                Texp_ident "stack/1016"
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[23,265+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[27,338+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[23,265+5]..[23,265+12])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[23,265+5]..[23,265+12])
+                  Pexp_construct "OP_SIZE" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[23,265+5]..[23,265+12])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+8])
+          Tpat_var "size/1017"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[27,338+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+17])
+                Tpat_var "stack/1018"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+11])
+                attribute "ns.braces"
+                  []
+                Texp_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+23])
+                  Ttyp_constr "int/1"
+                  []
+                  Texp_sequence
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+17])
+                    Texp_apply
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+8]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+10])
+                      Texp_ident "Pervasives!.|>"
+                    [
+                      <arg>
+                        Nolabel
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+7])
+                          Texp_ident "stack/1018"
+                      <arg>
+                        Nolabel
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+17])
+                          Texp_ident "Pervasives!.ignore"
+                    ]
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+10])
+                    Texp_letmodule "J/1020"
+                    module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+6])
+                      Tmod_structure
+                      [
+                        structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+6])
+                          Tstr_primitive
+                          value_description unsafe_expr/1019 (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+6])
+                            core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                              Ttyp_arrow
+                              Nolabel
+                              core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                Ttyp_any
+                              core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                Ttyp_any
+                            [
+                              "#raw_expr"
+                            ]
+                      ]
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+6])
+                      Texp_apply
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+6])
+                        Texp_ident "J/1020.unsafe_expr"
+                      [
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+10])
+                            Texp_constant Const_string("1",None)
+                      ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[28,340+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[31,390+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[28,340+5]..[28,340+15])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[28,340+5]..[28,340+15])
+                  Pexp_construct "OP_HASH160" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[28,340+5]..[28,340+15])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[29,357+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[29,357+11])
+          Tpat_var "hash160/1021"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[29,357+14]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[31,390+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[29,357+14]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[29,357+19])
+                Tpat_var "stack/1022"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[30,382+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[30,382+7])
+                attribute "ns.braces"
+                  []
+                Texp_ident "stack/1022"
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[32,392+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[35,434+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[32,392+5]..[32,392+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[32,392+5]..[32,392+11])
+                  Pexp_construct "OP_DUP" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[32,392+5]..[32,392+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[33,405+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[33,405+7])
+          Tpat_var "dup/1023"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[33,405+10]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[35,434+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[33,405+10]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[33,405+15])
+                Tpat_var "stack/1024"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[34,426+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[34,426+7])
+                attribute "ns.braces"
+                  []
+                Texp_ident "stack/1024"
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[36,436+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[38,468+1])
+    Tstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[36,436+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[36,436+10])
+          Tpat_var "verify/1025"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[36,436+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[38,468+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[36,436+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[36,436+18])
+                Tpat_var "stack/1026"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[37,460+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[37,460+7])
+                attribute "ns.braces"
+                  []
+                Texp_ident "stack/1026"
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[39,470+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[42,535+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[39,470+5]..[39,470+16])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[39,470+5]..[39,470+16])
+                  Pexp_construct "OP_CHECKSIG" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[39,470+5]..[39,470+16])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+12])
+          Tpat_var "checksig/1027"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[42,535+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+19])
+                Tpat_var "sig/1028"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+21]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[42,535+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+21]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+27])
+                      Tpat_var "pubkey/1029"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[41,528+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[41,528+6])
+                      attribute "ns.braces"
+                        []
+                      Texp_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+30]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+34])
+                        Ttyp_constr "bool/5"
+                        []
+                        Texp_construct "true"
+                        []
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[43,537+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[46,591+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[43,537+5]..[43,537+15])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[43,537+5]..[43,537+15])
+                  Pexp_construct "OP_HASH256" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[43,537+5]..[43,537+15])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[44,554+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[44,554+10])
+          Tpat_var "sha256/1030"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[44,554+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[46,591+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[44,554+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[44,554+18])
+                Tpat_var "stack/1031"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+11])
+                Texp_letmodule "J/1033"
+                module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+6])
+                  Tmod_structure
+                  [
+                    structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+6])
+                      Tstr_primitive
+                      value_description unsafe_expr/1032 (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+6])
+                        core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                          Ttyp_arrow
+                          Nolabel
+                          core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                            Ttyp_any
+                          core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                            Ttyp_any
+                        [
+                          "#raw_expr"
+                        ]
+                  ]
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+6])
+                  Texp_apply
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+6])
+                    Texp_ident "J/1033.unsafe_expr"
+                  [
+                    <arg>
+                      Nolabel
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+11])
+                        Texp_constant Const_string("{}",None)
+                  ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[47,593+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[50,672+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[47,593+5]..[47,593+15])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[47,593+5]..[47,593+15])
+                  Pexp_construct "OP_NUM2BIN" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[47,593+5]..[47,593+15])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+11])
+          Tpat_var "num2bin/1034"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+14]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[50,672+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+18])
+                Tpat_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+23])
+                  Ttyp_constr "int/1"
+                  []
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+18])
+                  Tpat_alias "int/1035"
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+18])
+                    Tpat_any
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+25]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[50,672+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+25]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+26])
+                      Tpat_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+28]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+31])
+                        Ttyp_constr "int/1"
+                        []
+                      pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+25]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+26])
+                        Tpat_alias "b/1036"
+                        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+25]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+26])
+                          Tpat_any
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[49,655+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[49,655+16])
+                      attribute "ns.braces"
+                        []
+                      Texp_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+34]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+39])
+                        Ttyp_constr "bytes/3"
+                        []
+                        Texp_apply
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[49,655+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[49,655+11])
+                          Texp_ident "Obj!.magic"
+                        [
+                          <arg>
+                            Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[49,655+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[49,655+15])
+                              Texp_ident "int/1035"
+                        ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[51,674+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[54,749+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[51,674+5]..[51,674+15])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[51,674+5]..[51,674+15])
+                  Pexp_construct "OP_BIN2NUM" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[51,674+5]..[51,674+15])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+11])
+          Tpat_var "bin2num/1037"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+14]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[54,749+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+20])
+                Tpat_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+22]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+27])
+                  Ttyp_constr "bytes/3"
+                  []
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+20])
+                  Tpat_alias "bytes/1038"
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+20])
+                    Tpat_any
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[53,730+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[53,730+18])
+                attribute "ns.braces"
+                  []
+                Texp_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+30]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+33])
+                  Ttyp_constr "int/1"
+                  []
+                  Texp_apply
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[53,730+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[53,730+11])
+                    Texp_ident "Obj!.magic"
+                  [
+                    <arg>
+                      Nolabel
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[53,730+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[53,730+17])
+                        Texp_ident "bytes/1038"
+                  ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[56,752+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[59,843+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[56,752+5]..[56,752+15])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[56,752+5]..[56,752+15])
+                  Pexp_construct "OP_BIN2NUM" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[56,752+5]..[56,752+15])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+17])
+          Tpat_var "int_of_string/1039"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[59,843+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+21]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+27])
+                Tpat_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+29]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+35])
+                  Ttyp_constr "string/15"
+                  []
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+21]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+27])
+                  Tpat_alias "string/1040"
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+21]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+27])
+                    Tpat_any
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+3]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+20])
+                Texp_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+38]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+41])
+                  Ttyp_constr "int/1"
+                  []
+                  Texp_constraint
+                    attribute "ns.braces"
+                      []
+                  core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+22]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+25])
+                    Ttyp_constr "int/1"
+                    []
+                    Texp_apply
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+3]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+12])
+                      Texp_ident "Obj!.magic"
+                    [
+                      <arg>
+                        Nolabel
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+19])
+                          Texp_ident "string/1040"
+                    ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[63,925+1])
+    Tstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+19])
+          Tpat_var "string_of_bytes/1041"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+22]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[63,925+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+28])
+                Tpat_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+30]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+35])
+                  Ttyp_constr "bytes/3"
+                  []
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+28])
+                  Tpat_alias "bytes/1042"
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+28])
+                    Tpat_any
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+3]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+19])
+                Texp_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+38]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+44])
+                  Ttyp_constr "string/15"
+                  []
+                  Texp_constraint
+                    attribute "ns.braces"
+                      []
+                  core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+21]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+27])
+                    Ttyp_constr "string/15"
+                    []
+                    Texp_apply
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+3]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+12])
+                      Texp_ident "Obj!.magic"
+                    [
+                      <arg>
+                        Nolabel
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+18])
+                          Texp_ident "bytes/1042"
+                    ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[66,996+1])
+    Tstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+19])
+          Tpat_var "bytes_of_string/1043"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+22]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[66,996+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+28])
+                Tpat_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+30]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+36])
+                  Ttyp_constr "string/15"
+                  []
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+28])
+                  Tpat_alias "bytes/1044"
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+28])
+                    Tpat_any
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[65,977+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[65,977+18])
+                attribute "ns.braces"
+                  []
+                Texp_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+39]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+44])
+                  Ttyp_constr "bytes/3"
+                  []
+                  Texp_apply
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[65,977+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[65,977+11])
+                    Texp_ident "Obj!.magic"
+                  [
+                    <arg>
+                      Nolabel
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[65,977+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[65,977+17])
+                        Texp_ident "bytes/1044"
+                  ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[68,999+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[71,1076+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[68,999+5]..[68,999+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[68,999+5]..[68,999+11])
+                  Pexp_construct "OP_CAT" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[68,999+5]..[68,999+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+7])
+          Tpat_var "cat/1045"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+10]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[71,1076+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+16])
+                Tpat_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+18]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+23])
+                  Ttyp_constr "bytes/3"
+                  []
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+16])
+                  Tpat_alias "bytes/1046"
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+16])
+                    Tpat_any
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+25]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[71,1076+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+25]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+30])
+                      Tpat_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+32]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+37])
+                        Ttyp_constr "bytes/3"
+                        []
+                      pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+25]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+30])
+                        Tpat_alias "bytes/1047"
+                        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+25]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+30])
+                          Tpat_any
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+11])
+                      Texp_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+40]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+45])
+                        Ttyp_constr "bytes/3"
+                        []
+                        Texp_letmodule "J/1049"
+                        module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+6])
+                          Tmod_structure
+                          [
+                            structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+6])
+                              Tstr_primitive
+                              value_description unsafe_expr/1048 (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+6])
+                                core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                  Ttyp_arrow
+                                  Nolabel
+                                  core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                    Ttyp_any
+                                  core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                    Ttyp_any
+                                [
+                                  "#raw_expr"
+                                ]
+                          ]
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+6])
+                          Texp_apply
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+6])
+                            Texp_ident "J/1049.unsafe_expr"
+                          [
+                            <arg>
+                              Nolabel
+                              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+11])
+                                Texp_constant Const_string("{}",None)
+                          ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[72,1078+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[75,1137+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[72,1078+5]..[72,1078+13])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[72,1078+5]..[72,1078+13])
+                  Pexp_construct "OP_SPLIT" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[72,1078+5]..[72,1078+13])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+9])
+          Tpat_var "split/1050"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[75,1137+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+18])
+                Tpat_var "stack/1051"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[75,1137+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+24])
+                      Tpat_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+26]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+29])
+                        Ttyp_constr "int/1"
+                        []
+                      pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+24])
+                        Tpat_alias "post/1052"
+                        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+24])
+                          Tpat_any
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[74,1129+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[74,1129+7])
+                      attribute "ns.braces"
+                        []
+                      Texp_ident "stack/1051"
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[76,1139+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[79,1183+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[76,1139+5]..[76,1139+12])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[76,1139+5]..[76,1139+12])
+                  Pexp_construct "OP_DROP" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[76,1139+5]..[76,1139+12])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[77,1153+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[77,1153+8])
+          Tpat_var "drop/1053"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[77,1153+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[79,1183+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[77,1153+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[77,1153+16])
+                Tpat_var "stack/1054"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[78,1175+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[78,1175+7])
+                attribute "ns.braces"
+                  []
+                Texp_ident "stack/1054"
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[80,1185+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[83,1233+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[80,1185+5]..[80,1185+14])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[80,1185+5]..[80,1185+14])
+                  Pexp_construct "OP_INVERT" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[80,1185+5]..[80,1185+14])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[81,1201+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[81,1201+10])
+          Tpat_var "invert/1055"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[81,1201+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[83,1233+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[81,1201+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[81,1201+18])
+                Tpat_var "stack/1056"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[82,1225+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[82,1225+7])
+                attribute "ns.braces"
+                  []
+                Texp_ident "stack/1056"
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[85,1236+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[88,1294+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[85,1236+5]..[85,1236+13])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[85,1236+5]..[85,1236+13])
+                  Pexp_construct "OP_EQUAL" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[85,1236+5]..[85,1236+13])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+9])
+          Tpat_var "equal/1057"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[88,1294+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+14])
+                Tpat_var "a/1058"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[88,1294+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+17])
+                      Tpat_var "b/1059"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+11])
+                      Texp_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+24])
+                        Ttyp_constr "bool/5"
+                        []
+                        Texp_letmodule "J/1061"
+                        module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+6])
+                          Tmod_structure
+                          [
+                            structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+6])
+                              Tstr_primitive
+                              value_description unsafe_expr/1060 (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+6])
+                                core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                  Ttyp_arrow
+                                  Nolabel
+                                  core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                    Ttyp_any
+                                  core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                    Ttyp_any
+                                [
+                                  "#raw_expr"
+                                ]
+                          ]
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+6])
+                          Texp_apply
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+6])
+                            Texp_ident "J/1061.unsafe_expr"
+                          [
+                            <arg>
+                              Nolabel
+                              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+11])
+                                Texp_constant Const_string("{}",None)
+                          ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[90,1297+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[93,1341+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[90,1297+5]..[90,1297+12])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[90,1297+5]..[90,1297+12])
+                  Pexp_construct "OP_SWAP" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[90,1297+5]..[90,1297+12])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[91,1311+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[91,1311+8])
+          Tpat_var "swap/1062"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[91,1311+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[93,1341+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[91,1311+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[91,1311+16])
+                Tpat_var "stack/1063"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[92,1333+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[92,1333+7])
+                attribute "ns.braces"
+                  []
+                Texp_ident "stack/1063"
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[94,1343+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[94,1343+32])
+    Tstr_exception
+    extension_constructor (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[94,1343+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[94,1343+32])
+      pext_name = "NotEqualverify/1064"
+      pext_kind =
+        Text_decl
+          [
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[94,1343+25]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[94,1343+31])
+              Ttyp_constr "string/15"
+              []
+          ]
+          None
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[95,1376+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[98,1443+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[95,1376+5]..[95,1376+19])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[95,1376+5]..[95,1376+19])
+                  Pexp_construct "OP_EQUALVERIFY" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[95,1376+5]..[95,1376+19])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+15])
+          Tpat_var "equalverify/1065"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+18]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[98,1443+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+19]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+24])
+                Tpat_var "stack/1066"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+26]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[98,1443+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+26]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+31])
+                      Tpat_var "value/1067"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[97,1435+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[97,1435+7])
+                      attribute "ns.braces"
+                        []
+                      Texp_ident "stack/1066"
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[104,1649+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[107,1698+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[104,1649+5]..[104,1649+13])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[104,1649+5]..[104,1649+13])
+                  Pexp_construct "OP_EQUAL" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[104,1649+5]..[104,1649+13])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+9])
+          Tpat_var "==/1068"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[107,1698+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+14])
+                Tpat_var "a/1069"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[107,1698+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+17])
+                      Tpat_var "b/1070"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+9])
+                      attribute "ns.braces"
+                        []
+                      Texp_apply
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+7])
+                        Texp_ident "Pervasives!.=="
+                      [
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+3])
+                            Texp_ident "a/1069"
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+8]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+9])
+                            Texp_ident "b/1070"
+                      ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[108,1700+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[111,1747+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[108,1700+5]..[108,1700+13])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[108,1700+5]..[108,1700+13])
+                  Pexp_construct "OP_EQUAL" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[108,1700+5]..[108,1700+13])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+8])
+          Tpat_var "=/1071"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[111,1747+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+13])
+                Tpat_var "a/1072"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[111,1747+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+16])
+                      Tpat_var "b/1073"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+8])
+                      attribute "ns.braces"
+                        []
+                      Texp_apply
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+6])
+                        Texp_ident "Pervasives!.="
+                      [
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+3])
+                            Texp_ident "a/1072"
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+8])
+                            Texp_ident "b/1073"
+                      ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[112,1749+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[115,1795+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[112,1749+5]..[112,1749+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[112,1749+5]..[112,1749+11])
+                  Pexp_construct "OP_AND" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[112,1749+5]..[112,1749+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+9])
+          Tpat_var "&&/1074"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[115,1795+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+14])
+                Tpat_var "a/1075"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[115,1795+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+17])
+                      Tpat_var "b/1076"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+8])
+                      attribute "ns.braces"
+                        []
+                      Texp_apply
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+6])
+                        Texp_ident "Pervasives!.&&"
+                      [
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+3])
+                            Texp_ident "a/1075"
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+8])
+                            Texp_ident "b/1076"
+                      ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[116,1797+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[119,1842+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[116,1797+5]..[116,1797+10])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[116,1797+5]..[116,1797+10])
+                  Pexp_construct "OP_OR" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[116,1797+5]..[116,1797+10])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+9])
+          Tpat_var "||/1077"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[119,1842+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+14])
+                Tpat_var "a/1078"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[119,1842+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+17])
+                      Tpat_var "b/1079"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+8])
+                      attribute "ns.braces"
+                        []
+                      Texp_apply
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+6])
+                        Texp_ident "Pervasives!.||"
+                      [
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+3])
+                            Texp_ident "a/1078"
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+8])
+                            Texp_ident "b/1079"
+                      ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[120,1844+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[123,1903+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[120,1844+5]..[120,1844+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[120,1844+5]..[120,1844+11])
+                  Pexp_construct "OP_ADD" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[120,1844+5]..[120,1844+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+8])
+          Tpat_var "+/1080"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[123,1903+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+13])
+                Tpat_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+18])
+                  Ttyp_constr "int/1"
+                  []
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+13])
+                  Tpat_alias "a/1081"
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+13])
+                    Tpat_any
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[123,1903+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+21])
+                      Tpat_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+26])
+                        Ttyp_constr "int/1"
+                        []
+                      pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+21])
+                        Tpat_alias "b/1082"
+                        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+21])
+                          Tpat_any
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+7])
+                      attribute "ns.braces"
+                        []
+                      Texp_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+29]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+32])
+                        Ttyp_constr "int/1"
+                        []
+                        Texp_apply
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+5])
+                          Texp_ident "Pervasives!.+"
+                        [
+                          <arg>
+                            Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+3])
+                              Texp_ident "a/1081"
+                          <arg>
+                            Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+6]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+7])
+                              Texp_ident "b/1082"
+                        ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[124,1905+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[127,1966+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[124,1905+5]..[124,1905+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[124,1905+5]..[124,1905+11])
+                  Pexp_construct "OP_CAT" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[124,1905+5]..[124,1905+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+8])
+          Tpat_var "^/1083"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[127,1966+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+13])
+                Tpat_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+21])
+                  Ttyp_constr "string/15"
+                  []
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+13])
+                  Tpat_alias "a/1084"
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+13])
+                    Tpat_any
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[127,1966+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+24])
+                      Tpat_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+26]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+32])
+                        Ttyp_constr "string/15"
+                        []
+                      pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+24])
+                        Tpat_alias "b/1085"
+                        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+24])
+                          Tpat_any
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+8])
+                      attribute "ns.braces"
+                        []
+                      Texp_apply
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+6])
+                        Texp_ident "Pervasives!.^"
+                      [
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+3])
+                            Texp_ident "a/1084"
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+8])
+                            Texp_ident "b/1085"
+                      ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[129,1969+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[132,2013+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[129,1969+5]..[129,1969+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[129,1969+5]..[129,1969+11])
+                  Pexp_construct "OP_SUB" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[129,1969+5]..[129,1969+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+8])
+          Tpat_var "-/1086"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[132,2013+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+13])
+                Tpat_var "a/1087"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[132,2013+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+16])
+                      Tpat_var "b/1088"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+7])
+                      attribute "ns.braces"
+                        []
+                      Texp_apply
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+5])
+                        Texp_ident "Pervasives!.-"
+                      [
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+3])
+                            Texp_ident "a/1087"
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+6]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+7])
+                            Texp_ident "b/1088"
+                      ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[133,2015+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[136,2059+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[133,2015+5]..[133,2015+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[133,2015+5]..[133,2015+11])
+                  Pexp_construct "OP_DIV" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[133,2015+5]..[133,2015+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+8])
+          Tpat_var "//1089"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[136,2059+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+13])
+                Tpat_var "a/1090"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[136,2059+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+16])
+                      Tpat_var "b/1091"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+7])
+                      attribute "ns.braces"
+                        []
+                      Texp_apply
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+5])
+                        Texp_ident "Pervasives!./"
+                      [
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+3])
+                            Texp_ident "a/1090"
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+6]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+7])
+                            Texp_ident "b/1091"
+                      ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[137,2061+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[140,2105+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[137,2061+5]..[137,2061+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[137,2061+5]..[137,2061+11])
+                  Pexp_construct "OP_MUL" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[137,2061+5]..[137,2061+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+8])
+          Tpat_var "*/1092"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[140,2105+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+13])
+                Tpat_var "a/1093"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[140,2105+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+16])
+                      Tpat_var "b/1094"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+7])
+                      attribute "ns.braces"
+                        []
+                      Texp_apply
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+5])
+                        Texp_ident "Pervasives!.*"
+                      [
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+3])
+                            Texp_ident "a/1093"
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+6]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+7])
+                            Texp_ident "b/1094"
+                      ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[141,2107+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[144,2165+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[141,2107+5]..[141,2107+19])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[141,2107+5]..[141,2107+19])
+                  Pexp_construct "OP_GREATERTHAN" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[141,2107+5]..[141,2107+19])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+8])
+          Tpat_var ">/1095"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[144,2165+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+13])
+                Tpat_var "a/1096"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[144,2165+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+16])
+                      Tpat_var "b/1097"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+7])
+                      attribute "ns.braces"
+                        []
+                      Texp_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+19]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+23])
+                        Ttyp_constr "bool/5"
+                        []
+                        Texp_apply
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+5])
+                          Texp_ident "Pervasives!.>"
+                        [
+                          <arg>
+                            Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+3])
+                              Texp_ident "a/1096"
+                          <arg>
+                            Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+6]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+7])
+                              Texp_ident "b/1097"
+                        ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[145,2167+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[148,2234+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[145,2167+5]..[145,2167+26])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[145,2167+5]..[145,2167+26])
+                  Pexp_construct "OP_GREATERTHANOREQUAL" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[145,2167+5]..[145,2167+26])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+9])
+          Tpat_var ">=/1098"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[148,2234+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+14])
+                Tpat_var "a/1099"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[148,2234+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+17])
+                      Tpat_var "b/1100"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+8])
+                      attribute "ns.braces"
+                        []
+                      Texp_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+24])
+                        Ttyp_constr "bool/5"
+                        []
+                        Texp_apply
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+6])
+                          Texp_ident "Pervasives!.>="
+                        [
+                          <arg>
+                            Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+3])
+                              Texp_ident "a/1099"
+                          <arg>
+                            Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+8])
+                              Texp_ident "b/1100"
+                        ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[149,2236+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[152,2291+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[149,2236+5]..[149,2236+16])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[149,2236+5]..[149,2236+16])
+                  Pexp_construct "OP_LESSTHAN" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[149,2236+5]..[149,2236+16])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+8])
+          Tpat_var "</1101"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[152,2291+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+13])
+                Tpat_var "a/1102"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[152,2291+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+16])
+                      Tpat_var "b/1103"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+7])
+                      attribute "ns.braces"
+                        []
+                      Texp_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+19]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+23])
+                        Ttyp_constr "bool/5"
+                        []
+                        Texp_apply
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+5])
+                          Texp_ident "Pervasives!.<"
+                        [
+                          <arg>
+                            Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+3])
+                              Texp_ident "a/1102"
+                          <arg>
+                            Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+6]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+7])
+                              Texp_ident "b/1103"
+                        ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[153,2293+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[156,2357+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[153,2293+5]..[153,2293+23])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[153,2293+5]..[153,2293+23])
+                  Pexp_construct "OP_LESSTHANOREQUAL" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[153,2293+5]..[153,2293+23])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+9])
+          Tpat_var "<=/1104"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[156,2357+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+14])
+                Tpat_var "a/1105"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[156,2357+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+17])
+                      Tpat_var "b/1106"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+8])
+                      attribute "ns.braces"
+                        []
+                      Texp_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+24])
+                        Ttyp_constr "bool/5"
+                        []
+                        Texp_apply
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+6])
+                          Texp_ident "Pervasives!.<="
+                        [
+                          <arg>
+                            Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+3])
+                              Texp_ident "a/1105"
+                          <arg>
+                            Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+8])
+                              Texp_ident "b/1106"
+                        ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[161,2414+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+5]..[158,2360+22])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+5]..[158,2360+22])
+                  Pexp_array
+                  [
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+6]..[158,2360+13])
+                      Pexp_construct "OP_TUCK" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+6]..[158,2360+13])
+                      None
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+15]..[158,2360+21])
+                      Pexp_construct "OP_VER" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+15]..[158,2360+21])
+                      None
+                  ]
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[159,2384+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[159,2384+7])
+          Tpat_var "foo/1107"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[159,2384+10]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[161,2414+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[159,2384+10]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[159,2384+11])
+                Tpat_var "a/1108"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+11])
+                Texp_letmodule "J/1110"
+                module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+6])
+                  Tmod_structure
+                  [
+                    structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+6])
+                      Tstr_primitive
+                      value_description unsafe_expr/1109 (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+6])
+                        core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                          Ttyp_arrow
+                          Nolabel
+                          core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                            Ttyp_any
+                          core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                            Ttyp_any
+                        [
+                          "#raw_expr"
+                        ]
+                  ]
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+6])
+                  Texp_apply
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+6])
+                    Texp_ident "J/1110.unsafe_expr"
+                  [
+                    <arg>
+                      Nolabel
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+7]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+11])
+                        Texp_constant Const_string("{}",None)
+                  ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[163,2417+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[165,2444+1])
+    Tstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[163,2417+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[163,2417+11])
+          Tpat_var "= []/1111"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[163,2417+14]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[165,2444+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[163,2417+14]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[163,2417+15])
+                Tpat_var "a/1112"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[164,2438+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[164,2438+5])
+                attribute "ns.braces"
+                  []
+                Texp_array
+                [
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[164,2438+3]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[164,2438+4])
+                    Texp_ident "a/1112"
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[184,2952+1])
+    Tstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+8])
+          Tpat_var "loop/1113"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[184,2952+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+14])
+                Tpat_var "fn/1114"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[184,2952+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+21])
+                      Tpat_constraint
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+26])
+                        Ttyp_constr "int/1"
+                        []
+                      pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+21])
+                        Tpat_alias "times/1115"
+                        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+21])
+                          Tpat_any
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[183,2944+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[183,2944+7])
+                      attribute "ns.braces"
+                        []
+                      Texp_apply
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[183,2944+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[183,2944+4])
+                        Texp_ident "fn/1114"
+                      [
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[183,2944+5]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[183,2944+6])
+                            Texp_constant Const_int 1
+                      ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[185,2954+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[188,3049+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "bitcoin"
+            []
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+9])
+          Tpat_var "slice/1116"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[188,3049+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+18])
+                Tpat_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+25])
+                  Ttyp_constr "bytes/3"
+                  []
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+18])
+                  Tpat_alias "bytes/1117"
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+18])
+                    Tpat_any
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+27]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[188,3049+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+27]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+32])
+                      Tpat_var "start/1118"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+34]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[188,3049+1])
+                      Texp_function
+                      Nolabel
+                      [
+                        <case>
+                          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+34]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+38])
+                            Tpat_var "end_/1119"
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+29]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+34])
+                            Texp_apply
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+29]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+34])
+                              Texp_ident "split/1050"
+                            [
+                              <arg>
+                                Nolabel
+                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+27])
+                                  Texp_apply
+                                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+27])
+                                    Texp_ident "drop/1053"
+                                  [
+                                    <arg>
+                                      Nolabel
+                                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+9]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+14])
+                                        Texp_apply
+                                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+9]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+14])
+                                          Texp_ident "split/1050"
+                                        [
+                                          <arg>
+                                            Nolabel
+                                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+7])
+                                              Texp_ident "bytes/1117"
+                                          <arg>
+                                            Nolabel
+                                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+20])
+                                              Texp_ident "start/1118"
+                                        ]
+                                  ]
+                              <arg>
+                                Nolabel
+                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+35]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+39])
+                                  Texp_ident "end_/1119"
+                            ]
+                      ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[189,3051+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[192,3177+1])
+    Tstr_value Nonrec
+    [
+      <def>
+          attribute "bitcoin"
+            []
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+15])
+          Tpat_var "sliceString/1120"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+18]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[192,3177+1])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+19]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+25])
+                Tpat_constraint
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+27]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+33])
+                  Ttyp_constr "string/15"
+                  []
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+19]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+25])
+                  Tpat_alias "string/1121"
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+19]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+25])
+                    Tpat_any
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+35]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[192,3177+1])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+35]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+40])
+                      Tpat_var "start/1122"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+42]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[192,3177+1])
+                      Texp_function
+                      Nolabel
+                      [
+                        <case>
+                          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+42]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+46])
+                            Tpat_var "end_/1123"
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+36]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+41])
+                            Texp_constraint
+                            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+49]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+55])
+                              Ttyp_constr "string/15"
+                              []
+                              Texp_apply
+                              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+36]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+41])
+                                Texp_ident "split/1050"
+                              [
+                                <arg>
+                                  Nolabel
+                                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+34])
+                                    Texp_apply
+                                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+30]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+34])
+                                      Texp_ident "drop/1053"
+                                    [
+                                      <arg>
+                                        Nolabel
+                                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+28])
+                                          Texp_apply
+                                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+24]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+28])
+                                            Texp_ident "swap/1062"
+                                          [
+                                            <arg>
+                                              Nolabel
+                                              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+10]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+15])
+                                                Texp_apply
+                                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+10]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+15])
+                                                  Texp_ident "split/1050"
+                                                [
+                                                  <arg>
+                                                    Nolabel
+                                                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+8])
+                                                      Texp_ident "string/1121"
+                                                  <arg>
+                                                    Nolabel
+                                                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+21])
+                                                      Texp_ident "start/1122"
+                                                ]
+                                          ]
+                                    ]
+                                <arg>
+                                  Nolabel
+                                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+42]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+54])
+                                    Texp_apply
+                                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+47]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+48])
+                                      Texp_ident "-/1086"
+                                    [
+                                      <arg>
+                                        Nolabel
+                                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+42]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+46])
+                                          Texp_ident "end_/1123"
+                                      <arg>
+                                        Nolabel
+                                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+49]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+54])
+                                          Texp_ident "start/1122"
+                                    ]
+                              ]
+                      ]
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[203,3330+3])
+    Tstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+9])
+          Tpat_var "|!/1124"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[203,3330+3])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+14])
+                Tpat_var "o/1125"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[203,3330+3])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+17])
+                      Tpat_var "d/1126"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[200,3276+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[203,3330+3])
+                      Texp_match
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[200,3276+9]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[200,3276+10])
+                        Texp_ident "o/1125"
+                      [
+                        <case>
+                          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+8])
+                            Tpat_construct "None"
+                            []
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+23])
+                            Texp_apply
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+20])
+                              Texp_ident "Pervasives!.failwith"
+                            [
+                              <arg>
+                                Nolabel
+                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+21]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+22])
+                                  Texp_ident "d/1126"
+                            ]
+                        <case>
+                          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[202,3313+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[202,3313+11])
+                            Tpat_construct "Some"
+                            [
+                              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[202,3313+9]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[202,3313+10])
+                                Tpat_var "v/1127"
+                            ]
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[202,3313+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[202,3313+16])
+                            Texp_ident "v/1127"
+                      ]
+                      []
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[209,3417+3])
+    Tstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+11])
+          Tpat_var "|?>>/1128"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+14]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[209,3417+3])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+16])
+                Tpat_var "o/1129"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+18]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[209,3417+3])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+18]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+20])
+                      Tpat_var "fn/1130"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[206,3360+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[209,3417+3])
+                      Texp_match
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[206,3360+9]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[206,3360+10])
+                        Texp_ident "o/1129"
+                      [
+                        <case>
+                          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[207,3373+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[207,3373+8])
+                            Tpat_construct "None"
+                            []
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[207,3373+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[207,3373+16])
+                            Texp_construct "None"
+                            []
+                        <case>
+                          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+11])
+                            Tpat_construct "Some"
+                            [
+                              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+9]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+10])
+                                Tpat_var "v/1131"
+                            ]
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+26])
+                            Texp_construct "Some"
+                            [
+                              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+25])
+                                Texp_apply
+                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+20]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+22])
+                                  Texp_ident "fn/1130"
+                                [
+                                  <arg>
+                                    Nolabel
+                                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+24])
+                                      Texp_ident "v/1131"
+                                ]
+                            ]
+                      ]
+                      []
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[217,3549+3])
+    Tstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+10])
+          Tpat_var "|?>/1132"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[217,3549+3])
+          Texp_function
+          Nolabel
+          [
+            <case>
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+14]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+15])
+                Tpat_var "o/1133"
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+17]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[217,3549+3])
+                Texp_function
+                Nolabel
+                [
+                  <case>
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+17]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+19])
+                      Tpat_var "fn/1134"
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[214,3498+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[217,3549+3])
+                      Texp_match
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[214,3498+9]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[214,3498+10])
+                        Texp_ident "o/1133"
+                      [
+                        <case>
+                          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[215,3511+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[215,3511+8])
+                            Tpat_construct "None"
+                            []
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[215,3511+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[215,3511+16])
+                            Texp_construct "None"
+                            []
+                        <case>
+                          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+11])
+                            Tpat_construct "Some"
+                            [
+                              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+9]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+10])
+                                Tpat_var "v/1135"
+                            ]
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+20])
+                            Texp_apply
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+17])
+                              Texp_ident "fn/1134"
+                            [
+                              <arg>
+                                Nolabel
+                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+18]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+19])
+                                  Texp_ident "v/1135"
+                            ]
+                      ]
+                      []
+                ]
+          ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[228,3825+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[242,4148+1])
+    Tstr_module
+    String/1136
+      attribute "bitcoin"
+        []
+      module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[229,3834+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[242,4148+1])
+        Tmod_structure
+        [
+          structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[230,3852+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[233,3925+3])
+            Tstr_value Nonrec
+            [
+              <def>
+                  attribute "asm"
+                    [
+                      structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[230,3852+7]..[230,3852+14])
+                        Pstr_eval
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[230,3852+7]..[230,3852+14])
+                          Pexp_construct "OP_SIZE" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[230,3852+7]..[230,3852+14])
+                          None
+                    ]
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+6]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+12])
+                  Tpat_var "length/1137"
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[233,3925+3])
+                  Texp_function
+                  Nolabel
+                  [
+                    <case>
+                      pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+22])
+                        Tpat_constraint
+                        core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+24]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+30])
+                          Ttyp_constr "string/15"
+                          []
+                        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+22])
+                          Tpat_alias "string/1138"
+                          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+16]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+22])
+                            Tpat_any
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+9]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+13])
+                        Texp_constraint
+                        core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+33]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+36])
+                          Ttyp_constr "int/1"
+                          []
+                          Texp_letmodule "J/1140"
+                          module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+8])
+                            Tmod_structure
+                            [
+                              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+8])
+                                Tstr_primitive
+                                value_description unsafe_expr/1139 (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+8])
+                                  core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                    Ttyp_arrow
+                                    Nolabel
+                                    core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                      Ttyp_any
+                                    core_type (_none_[1,0+-1].._none_[1,0+-1]) ghost
+                                      Ttyp_any
+                                  [
+                                    "#raw_expr"
+                                  ]
+                            ]
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+8])
+                            Texp_apply
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+8])
+                              Texp_ident "J/1140.unsafe_expr"
+                            [
+                              <arg>
+                                Nolabel
+                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+9]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+13])
+                                  Texp_constant Const_string("{}",None)
+                            ]
+                  ]
+            ]
+          structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[236,4044+3])
+            Tstr_value Nonrec
+            [
+              <def>
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+6]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+11])
+                  Tpat_var "slice/1141"
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+14]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[236,4044+3])
+                  Texp_function
+                  Nolabel
+                  [
+                    <case>
+                      pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+21])
+                        Tpat_constraint
+                        core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+29])
+                          Ttyp_constr "string/15"
+                          []
+                        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+21])
+                          Tpat_alias "string/1142"
+                          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+21])
+                            Tpat_any
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+31]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[236,4044+3])
+                        Texp_function
+                        Nolabel
+                        [
+                          <case>
+                            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+31]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+36])
+                              Tpat_var "start/1143"
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+38]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[236,4044+3])
+                              Texp_function
+                              Nolabel
+                              [
+                                <case>
+                                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+38]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+42])
+                                    Tpat_var "end_/1144"
+                                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+38]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+43])
+                                    Texp_constraint
+                                    core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+45]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+51])
+                                      Ttyp_constr "string/15"
+                                      []
+                                      Texp_apply
+                                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+38]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+43])
+                                        Texp_ident "split/1050"
+                                      [
+                                        <arg>
+                                          Nolabel
+                                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+36])
+                                            Texp_apply
+                                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+32]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+36])
+                                              Texp_ident "drop/1053"
+                                            [
+                                              <arg>
+                                                Nolabel
+                                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+30])
+                                                  Texp_apply
+                                                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+26]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+30])
+                                                    Texp_ident "swap/1062"
+                                                  [
+                                                    <arg>
+                                                      Nolabel
+                                                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+17])
+                                                        Texp_apply
+                                                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+12]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+17])
+                                                          Texp_ident "split/1050"
+                                                        [
+                                                          <arg>
+                                                            Nolabel
+                                                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+10])
+                                                              Texp_ident "string/1142"
+                                                          <arg>
+                                                            Nolabel
+                                                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+18]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+23])
+                                                              Texp_ident "start/1143"
+                                                        ]
+                                                  ]
+                                            ]
+                                        <arg>
+                                          Nolabel
+                                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+44]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+56])
+                                            Texp_apply
+                                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+49]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+50])
+                                              Texp_ident "-/1086"
+                                            [
+                                              <arg>
+                                                Nolabel
+                                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+44]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+48])
+                                                  Texp_ident "end_/1144"
+                                              <arg>
+                                                Nolabel
+                                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+51]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+56])
+                                                  Texp_ident "start/1143"
+                                            ]
+                                      ]
+                              ]
+                        ]
+                  ]
+            ]
+          structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[238,4049+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[241,4144+3])
+            Tstr_value Nonrec
+            [
+              <def>
+                  attribute "asm"
+                    [
+                      structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[238,4049+7]..[238,4049+17])
+                        Pstr_eval
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[238,4049+7]..[238,4049+17])
+                          Pexp_construct "OP_BIN2NUM" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[238,4049+7]..[238,4049+17])
+                          None
+                    ]
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+6]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+19])
+                  Tpat_var "string_of_int/1145"
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+22]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[241,4144+3])
+                  Texp_function
+                  Nolabel
+                  [
+                    <case>
+                      pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+24])
+                        Tpat_constraint
+                        core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+26]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+29])
+                          Ttyp_constr "int/1"
+                          []
+                        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+24])
+                          Tpat_alias "a/1146"
+                          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+24])
+                            Tpat_any
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+31]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[241,4144+3])
+                        Texp_function
+                        Nolabel
+                        [
+                          <case>
+                            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+31]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+34])
+                              Tpat_var "int/1147"
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+5]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+17])
+                              Texp_constraint
+                              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+37]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+43])
+                                Ttyp_constr "string/15"
+                                []
+                                Texp_constraint
+                                  attribute "ns.braces"
+                                    []
+                                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+19]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+25])
+                                  Ttyp_constr "string/15"
+                                  []
+                                  Texp_apply
+                                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+5]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+14])
+                                    Texp_ident "Obj!.magic"
+                                  [
+                                    <arg>
+                                      Nolabel
+                                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+16])
+                                        Texp_ident "a/1146"
+                                  ]
+                        ]
+                  ]
+            ]
+        ]
+]

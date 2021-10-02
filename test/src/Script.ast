@@ -1,0 +1,2143 @@
+[
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+0]..[4,60+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+5]..[1,0+22])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+5]..[1,0+22])
+                  Pexp_array
+                  [
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+6]..[1,0+12])
+                      Pexp_construct "OP_SUB" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+6]..[1,0+12])
+                      None
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+14]..[1,0+21])
+                      Pexp_construct "OP_DUDE" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[1,0+14]..[1,0+21])
+                      None
+                  ]
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+4]..[2,24+8])
+          Ppat_var "fooo" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+4]..[2,24+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+11]..[4,60+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+12]..[2,24+13])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+12]..[2,24+13])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+15]..[4,60+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+15]..[2,24+16])
+              Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[2,24+15]..[2,24+16])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+7]..[3,47+11])
+              Pexp_letmodule "J" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+2]..[3,47+6])
+              module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+2]..[3,47+6])
+                Pmod_structure
+                [
+                  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+2]..[3,47+6])
+                    Pstr_primitive
+                    value_description "unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+2]..[3,47+6]) (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+2]..[3,47+6])
+                      core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                        Ptyp_arrow
+                        Nolabel
+                        core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                          Ptyp_any
+                        core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                          Ptyp_any
+                      [
+                        "#raw_expr"
+                      ]
+                ]
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+2]..[3,47+6])
+                Pexp_apply
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+2]..[3,47+6])
+                  Pexp_ident "J.unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+2]..[3,47+6])
+                [
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[3,47+7]..[3,47+11])
+                      Pexp_constant PConst_string("{}",None)
+                ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[11,120+0]..[14,170+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[11,120+5]..[11,120+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[11,120+5]..[11,120+11])
+                  Pexp_construct "OP_ADD" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[11,120+5]..[11,120+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+4]..[12,133+7])
+          Ppat_var "add" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+4]..[12,133+7])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+10]..[14,170+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+11]..[12,133+16])
+            Ppat_var "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+11]..[12,133+16])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+18]..[14,170+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+18]..[12,133+19])
+              Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+18]..[12,133+19])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+21]..[14,170+1])
+              Pexp_fun
+              Nolabel
+              None
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+21]..[12,133+22])
+                Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[12,133+21]..[12,133+22])
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[13,162+2]..[13,162+7])
+                attribute "ns.braces"
+                  []
+                Pexp_ident "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[13,162+2]..[13,162+7])
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[15,172+0]..[18,217+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[15,172+5]..[15,172+12])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[15,172+5]..[15,172+12])
+                  Pexp_construct "OP_1ADD" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[15,172+5]..[15,172+12])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[16,186+4]..[16,186+8])
+          Ppat_var "add1" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[16,186+4]..[16,186+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[16,186+11]..[18,217+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[16,186+11]..[16,186+12])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[16,186+11]..[16,186+12])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+7]..[17,204+11])
+            Pexp_letmodule "J" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+2]..[17,204+6])
+            module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+2]..[17,204+6])
+              Pmod_structure
+              [
+                structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+2]..[17,204+6])
+                  Pstr_primitive
+                  value_description "unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+2]..[17,204+6]) (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+2]..[17,204+6])
+                    core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                      Ptyp_arrow
+                      Nolabel
+                      core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                        Ptyp_any
+                      core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                        Ptyp_any
+                    [
+                      "#raw_expr"
+                    ]
+              ]
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+2]..[17,204+6])
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+2]..[17,204+6])
+                Pexp_ident "J.unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+2]..[17,204+6])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[17,204+7]..[17,204+11])
+                    Pexp_constant PConst_string("{}",None)
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[19,219+0]..[22,263+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[19,219+5]..[19,219+12])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[19,219+5]..[19,219+12])
+                  Pexp_construct "OP_SUB1" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[19,219+5]..[19,219+12])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[20,233+4]..[20,233+8])
+          Ppat_var "sub1" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[20,233+4]..[20,233+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[20,233+11]..[22,263+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[20,233+11]..[20,233+16])
+            Ppat_var "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[20,233+11]..[20,233+16])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[21,255+2]..[21,255+7])
+            attribute "ns.braces"
+              []
+            Pexp_ident "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[21,255+2]..[21,255+7])
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[23,265+0]..[27,338+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[23,265+5]..[23,265+12])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[23,265+5]..[23,265+12])
+                  Pexp_construct "OP_SIZE" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[23,265+5]..[23,265+12])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+4]..[24,279+8])
+          Ppat_var "size" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+4]..[24,279+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+11]..[27,338+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+12]..[24,279+17])
+            Ppat_var "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+12]..[24,279+17])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+2]..[24,279+23])
+            Pexp_constraint
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+2]..[26,326+11])
+              attribute "ns.braces"
+                []
+              Pexp_sequence
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+2]..[25,308+17])
+                Pexp_apply
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+8]..[25,308+10])
+                  Pexp_ident "|>" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+8]..[25,308+10])
+                [
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+2]..[25,308+7])
+                      Pexp_ident "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+2]..[25,308+7])
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+11]..[25,308+17])
+                      Pexp_ident "ignore" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[25,308+11]..[25,308+17])
+                ]
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+7]..[26,326+10])
+                Pexp_letmodule "J" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+2]..[26,326+6])
+                module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+2]..[26,326+6])
+                  Pmod_structure
+                  [
+                    structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+2]..[26,326+6])
+                      Pstr_primitive
+                      value_description "unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+2]..[26,326+6]) (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+2]..[26,326+6])
+                        core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                          Ptyp_arrow
+                          Nolabel
+                          core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                            Ptyp_any
+                          core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                            Ptyp_any
+                        [
+                          "#raw_expr"
+                        ]
+                  ]
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+2]..[26,326+6])
+                  Pexp_apply
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+2]..[26,326+6])
+                    Pexp_ident "J.unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+2]..[26,326+6])
+                  [
+                    <arg>
+                    Nolabel
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[26,326+7]..[26,326+10])
+                        Pexp_constant PConst_string("1",None)
+                  ]
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+20]..[24,279+23])
+              Ptyp_constr "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[24,279+20]..[24,279+23])
+              []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[28,340+0]..[31,390+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[28,340+5]..[28,340+15])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[28,340+5]..[28,340+15])
+                  Pexp_construct "OP_HASH160" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[28,340+5]..[28,340+15])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[29,357+4]..[29,357+11])
+          Ppat_var "hash160" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[29,357+4]..[29,357+11])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[29,357+14]..[31,390+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[29,357+14]..[29,357+19])
+            Ppat_var "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[29,357+14]..[29,357+19])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[30,382+2]..[30,382+7])
+            attribute "ns.braces"
+              []
+            Pexp_ident "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[30,382+2]..[30,382+7])
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[32,392+0]..[35,434+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[32,392+5]..[32,392+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[32,392+5]..[32,392+11])
+                  Pexp_construct "OP_DUP" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[32,392+5]..[32,392+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[33,405+4]..[33,405+7])
+          Ppat_var "dup" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[33,405+4]..[33,405+7])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[33,405+10]..[35,434+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[33,405+10]..[33,405+15])
+            Ppat_var "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[33,405+10]..[33,405+15])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[34,426+2]..[34,426+7])
+            attribute "ns.braces"
+              []
+            Pexp_ident "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[34,426+2]..[34,426+7])
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[36,436+0]..[38,468+1])
+    Pstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[36,436+4]..[36,436+10])
+          Ppat_var "verify" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[36,436+4]..[36,436+10])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[36,436+13]..[38,468+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[36,436+13]..[36,436+18])
+            Ppat_var "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[36,436+13]..[36,436+18])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[37,460+2]..[37,460+7])
+            attribute "ns.braces"
+              []
+            Pexp_ident "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[37,460+2]..[37,460+7])
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[39,470+0]..[42,535+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[39,470+5]..[39,470+16])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[39,470+5]..[39,470+16])
+                  Pexp_construct "OP_CHECKSIG" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[39,470+5]..[39,470+16])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+4]..[40,488+12])
+          Ppat_var "checksig" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+4]..[40,488+12])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+15]..[42,535+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+16]..[40,488+19])
+            Ppat_var "sig" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+16]..[40,488+19])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+21]..[42,535+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+21]..[40,488+27])
+              Ppat_var "pubkey" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+21]..[40,488+27])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[41,528+2]..[40,488+34])
+              Pexp_constraint
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[41,528+2]..[41,528+6])
+                attribute "ns.braces"
+                  []
+                Pexp_construct "true" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[41,528+2]..[41,528+6])
+                None
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+30]..[40,488+34])
+                Ptyp_constr "bool" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[40,488+30]..[40,488+34])
+                []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[43,537+0]..[46,591+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[43,537+5]..[43,537+15])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[43,537+5]..[43,537+15])
+                  Pexp_construct "OP_HASH256" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[43,537+5]..[43,537+15])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[44,554+4]..[44,554+10])
+          Ppat_var "sha256" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[44,554+4]..[44,554+10])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[44,554+13]..[46,591+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[44,554+13]..[44,554+18])
+            Ppat_var "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[44,554+13]..[44,554+18])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+7]..[45,578+11])
+            Pexp_letmodule "J" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+2]..[45,578+6])
+            module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+2]..[45,578+6])
+              Pmod_structure
+              [
+                structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+2]..[45,578+6])
+                  Pstr_primitive
+                  value_description "unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+2]..[45,578+6]) (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+2]..[45,578+6])
+                    core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                      Ptyp_arrow
+                      Nolabel
+                      core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                        Ptyp_any
+                      core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                        Ptyp_any
+                    [
+                      "#raw_expr"
+                    ]
+              ]
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+2]..[45,578+6])
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+2]..[45,578+6])
+                Pexp_ident "J.unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+2]..[45,578+6])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[45,578+7]..[45,578+11])
+                    Pexp_constant PConst_string("{}",None)
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[47,593+0]..[50,672+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[47,593+5]..[47,593+15])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[47,593+5]..[47,593+15])
+                  Pexp_construct "OP_NUM2BIN" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[47,593+5]..[47,593+15])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+4]..[48,610+11])
+          Ppat_var "num2bin" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+4]..[48,610+11])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+14]..[50,672+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+15]..[48,610+18])
+            Ppat_constraint
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+15]..[48,610+18])
+              Ppat_var "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+15]..[48,610+18])
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+20]..[48,610+23])
+              Ptyp_constr "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+20]..[48,610+23])
+              []
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+25]..[50,672+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+25]..[48,610+26])
+              Ppat_constraint
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+25]..[48,610+26])
+                Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+25]..[48,610+26])
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+28]..[48,610+31])
+                Ptyp_constr "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+28]..[48,610+31])
+                []
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[49,655+2]..[48,610+39])
+              Pexp_constraint
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[49,655+2]..[49,655+16])
+                attribute "ns.braces"
+                  []
+                Pexp_apply
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[49,655+2]..[49,655+11])
+                  Pexp_ident "Obj.magic" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[49,655+2]..[49,655+11])
+                [
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[49,655+12]..[49,655+15])
+                      Pexp_ident "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[49,655+12]..[49,655+15])
+                ]
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+34]..[48,610+39])
+                Ptyp_constr "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[48,610+34]..[48,610+39])
+                []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[51,674+0]..[54,749+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[51,674+5]..[51,674+15])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[51,674+5]..[51,674+15])
+                  Pexp_construct "OP_BIN2NUM" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[51,674+5]..[51,674+15])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+4]..[52,691+11])
+          Ppat_var "bin2num" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+4]..[52,691+11])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+14]..[54,749+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+15]..[52,691+20])
+            Ppat_constraint
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+15]..[52,691+20])
+              Ppat_var "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+15]..[52,691+20])
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+22]..[52,691+27])
+              Ptyp_constr "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+22]..[52,691+27])
+              []
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[53,730+2]..[52,691+33])
+            Pexp_constraint
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[53,730+2]..[53,730+18])
+              attribute "ns.braces"
+                []
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[53,730+2]..[53,730+11])
+                Pexp_ident "Obj.magic" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[53,730+2]..[53,730+11])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[53,730+12]..[53,730+17])
+                    Pexp_ident "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[53,730+12]..[53,730+17])
+              ]
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+30]..[52,691+33])
+              Ptyp_constr "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[52,691+30]..[52,691+33])
+              []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[56,752+0]..[59,843+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[56,752+5]..[56,752+15])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[56,752+5]..[56,752+15])
+                  Pexp_construct "OP_BIN2NUM" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[56,752+5]..[56,752+15])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+4]..[57,769+17])
+          Ppat_var "int_of_string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+4]..[57,769+17])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+20]..[59,843+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+21]..[57,769+27])
+            Ppat_constraint
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+21]..[57,769+27])
+              Ppat_var "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+21]..[57,769+27])
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+29]..[57,769+35])
+              Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+29]..[57,769+35])
+              []
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+3]..[57,769+41])
+            Pexp_constraint
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+3]..[58,816+25])
+              attribute "ns.braces"
+                []
+              Pexp_constraint
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+3]..[58,816+20])
+                Pexp_apply
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+3]..[58,816+12])
+                  Pexp_ident "Obj.magic" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+3]..[58,816+12])
+                [
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+13]..[58,816+19])
+                      Pexp_ident "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+13]..[58,816+19])
+                ]
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+22]..[58,816+25])
+                Ptyp_constr "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[58,816+22]..[58,816+25])
+                []
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+38]..[57,769+41])
+              Ptyp_constr "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[57,769+38]..[57,769+41])
+              []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+0]..[63,925+1])
+    Pstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+4]..[61,846+19])
+          Ppat_var "string_of_bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+4]..[61,846+19])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+22]..[63,925+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+23]..[61,846+28])
+            Ppat_constraint
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+23]..[61,846+28])
+              Ppat_var "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+23]..[61,846+28])
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+30]..[61,846+35])
+              Ptyp_constr "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+30]..[61,846+35])
+              []
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+3]..[61,846+44])
+            Pexp_constraint
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+3]..[62,896+27])
+              attribute "ns.braces"
+                []
+              Pexp_constraint
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+3]..[62,896+19])
+                Pexp_apply
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+3]..[62,896+12])
+                  Pexp_ident "Obj.magic" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+3]..[62,896+12])
+                [
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+13]..[62,896+18])
+                      Pexp_ident "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+13]..[62,896+18])
+                ]
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+21]..[62,896+27])
+                Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[62,896+21]..[62,896+27])
+                []
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+38]..[61,846+44])
+              Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[61,846+38]..[61,846+44])
+              []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+0]..[66,996+1])
+    Pstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+4]..[64,927+19])
+          Ppat_var "bytes_of_string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+4]..[64,927+19])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+22]..[66,996+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+23]..[64,927+28])
+            Ppat_constraint
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+23]..[64,927+28])
+              Ppat_var "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+23]..[64,927+28])
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+30]..[64,927+36])
+              Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+30]..[64,927+36])
+              []
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[65,977+2]..[64,927+44])
+            Pexp_constraint
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[65,977+2]..[65,977+18])
+              attribute "ns.braces"
+                []
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[65,977+2]..[65,977+11])
+                Pexp_ident "Obj.magic" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[65,977+2]..[65,977+11])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[65,977+12]..[65,977+17])
+                    Pexp_ident "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[65,977+12]..[65,977+17])
+              ]
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+39]..[64,927+44])
+              Ptyp_constr "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[64,927+39]..[64,927+44])
+              []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[68,999+0]..[71,1076+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[68,999+5]..[68,999+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[68,999+5]..[68,999+11])
+                  Pexp_construct "OP_CAT" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[68,999+5]..[68,999+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+4]..[69,1012+7])
+          Ppat_var "cat" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+4]..[69,1012+7])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+10]..[71,1076+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+11]..[69,1012+16])
+            Ppat_constraint
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+11]..[69,1012+16])
+              Ppat_var "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+11]..[69,1012+16])
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+18]..[69,1012+23])
+              Ptyp_constr "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+18]..[69,1012+23])
+              []
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+25]..[71,1076+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+25]..[69,1012+30])
+              Ppat_constraint
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+25]..[69,1012+30])
+                Ppat_var "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+25]..[69,1012+30])
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+32]..[69,1012+37])
+                Ptyp_constr "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+32]..[69,1012+37])
+                []
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]..[69,1012+45])
+              Pexp_constraint
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+7]..[70,1063+11])
+                Pexp_letmodule "J" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]..[70,1063+6])
+                module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]..[70,1063+6])
+                  Pmod_structure
+                  [
+                    structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]..[70,1063+6])
+                      Pstr_primitive
+                      value_description "unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]..[70,1063+6]) (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]..[70,1063+6])
+                        core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                          Ptyp_arrow
+                          Nolabel
+                          core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                            Ptyp_any
+                          core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                            Ptyp_any
+                        [
+                          "#raw_expr"
+                        ]
+                  ]
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]..[70,1063+6])
+                  Pexp_apply
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]..[70,1063+6])
+                    Pexp_ident "J.unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+2]..[70,1063+6])
+                  [
+                    <arg>
+                    Nolabel
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[70,1063+7]..[70,1063+11])
+                        Pexp_constant PConst_string("{}",None)
+                  ]
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+40]..[69,1012+45])
+                Ptyp_constr "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[69,1012+40]..[69,1012+45])
+                []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[72,1078+0]..[75,1137+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[72,1078+5]..[72,1078+13])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[72,1078+5]..[72,1078+13])
+                  Pexp_construct "OP_SPLIT" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[72,1078+5]..[72,1078+13])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+4]..[73,1093+9])
+          Ppat_var "split" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+4]..[73,1093+9])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+12]..[75,1137+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+13]..[73,1093+18])
+            Ppat_var "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+13]..[73,1093+18])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+20]..[75,1137+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+20]..[73,1093+24])
+              Ppat_constraint
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+20]..[73,1093+24])
+                Ppat_var "post" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+20]..[73,1093+24])
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+26]..[73,1093+29])
+                Ptyp_constr "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[73,1093+26]..[73,1093+29])
+                []
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[74,1129+2]..[74,1129+7])
+              attribute "ns.braces"
+                []
+              Pexp_ident "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[74,1129+2]..[74,1129+7])
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[76,1139+0]..[79,1183+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[76,1139+5]..[76,1139+12])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[76,1139+5]..[76,1139+12])
+                  Pexp_construct "OP_DROP" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[76,1139+5]..[76,1139+12])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[77,1153+4]..[77,1153+8])
+          Ppat_var "drop" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[77,1153+4]..[77,1153+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[77,1153+11]..[79,1183+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[77,1153+11]..[77,1153+16])
+            Ppat_var "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[77,1153+11]..[77,1153+16])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[78,1175+2]..[78,1175+7])
+            attribute "ns.braces"
+              []
+            Pexp_ident "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[78,1175+2]..[78,1175+7])
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[80,1185+0]..[83,1233+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[80,1185+5]..[80,1185+14])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[80,1185+5]..[80,1185+14])
+                  Pexp_construct "OP_INVERT" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[80,1185+5]..[80,1185+14])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[81,1201+4]..[81,1201+10])
+          Ppat_var "invert" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[81,1201+4]..[81,1201+10])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[81,1201+13]..[83,1233+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[81,1201+13]..[81,1201+18])
+            Ppat_var "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[81,1201+13]..[81,1201+18])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[82,1225+2]..[82,1225+7])
+            attribute "ns.braces"
+              []
+            Pexp_ident "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[82,1225+2]..[82,1225+7])
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[85,1236+0]..[88,1294+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[85,1236+5]..[85,1236+13])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[85,1236+5]..[85,1236+13])
+                  Pexp_construct "OP_EQUAL" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[85,1236+5]..[85,1236+13])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+4]..[86,1251+9])
+          Ppat_var "equal" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+4]..[86,1251+9])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+12]..[88,1294+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+13]..[86,1251+14])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+13]..[86,1251+14])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+16]..[88,1294+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+16]..[86,1251+17])
+              Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+16]..[86,1251+17])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]..[86,1251+24])
+              Pexp_constraint
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+7]..[87,1281+11])
+                Pexp_letmodule "J" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]..[87,1281+6])
+                module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]..[87,1281+6])
+                  Pmod_structure
+                  [
+                    structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]..[87,1281+6])
+                      Pstr_primitive
+                      value_description "unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]..[87,1281+6]) (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]..[87,1281+6])
+                        core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                          Ptyp_arrow
+                          Nolabel
+                          core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                            Ptyp_any
+                          core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                            Ptyp_any
+                        [
+                          "#raw_expr"
+                        ]
+                  ]
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]..[87,1281+6])
+                  Pexp_apply
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]..[87,1281+6])
+                    Pexp_ident "J.unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+2]..[87,1281+6])
+                  [
+                    <arg>
+                    Nolabel
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[87,1281+7]..[87,1281+11])
+                        Pexp_constant PConst_string("{}",None)
+                  ]
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+20]..[86,1251+24])
+                Ptyp_constr "bool" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[86,1251+20]..[86,1251+24])
+                []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[90,1297+0]..[93,1341+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[90,1297+5]..[90,1297+12])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[90,1297+5]..[90,1297+12])
+                  Pexp_construct "OP_SWAP" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[90,1297+5]..[90,1297+12])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[91,1311+4]..[91,1311+8])
+          Ppat_var "swap" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[91,1311+4]..[91,1311+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[91,1311+11]..[93,1341+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[91,1311+11]..[91,1311+16])
+            Ppat_var "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[91,1311+11]..[91,1311+16])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[92,1333+2]..[92,1333+7])
+            attribute "ns.braces"
+              []
+            Pexp_ident "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[92,1333+2]..[92,1333+7])
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[94,1343+0]..[94,1343+32])
+    Pstr_exception
+    extension_constructor (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[94,1343+0]..[94,1343+32])
+      pext_name = "NotEqualverify"
+      pext_kind =
+        Pext_decl
+          [
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[94,1343+25]..[94,1343+31])
+              Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[94,1343+25]..[94,1343+31])
+              []
+          ]
+          None
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[95,1376+0]..[98,1443+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[95,1376+5]..[95,1376+19])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[95,1376+5]..[95,1376+19])
+                  Pexp_construct "OP_EQUALVERIFY" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[95,1376+5]..[95,1376+19])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+4]..[96,1397+15])
+          Ppat_var "equalverify" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+4]..[96,1397+15])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+18]..[98,1443+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+19]..[96,1397+24])
+            Ppat_var "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+19]..[96,1397+24])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+26]..[98,1443+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+26]..[96,1397+31])
+              Ppat_var "value" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[96,1397+26]..[96,1397+31])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[97,1435+2]..[97,1435+7])
+              attribute "ns.braces"
+                []
+              Pexp_ident "stack" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[97,1435+2]..[97,1435+7])
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[104,1649+0]..[107,1698+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[104,1649+5]..[104,1649+13])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[104,1649+5]..[104,1649+13])
+                  Pexp_construct "OP_EQUAL" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[104,1649+5]..[104,1649+13])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+4]..[105,1664+9])
+          Ppat_var "==" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+4]..[105,1664+9])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+12]..[107,1698+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+13]..[105,1664+14])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+13]..[105,1664+14])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+16]..[107,1698+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+16]..[105,1664+17])
+              Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[105,1664+16]..[105,1664+17])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+2]..[106,1688+9])
+              attribute "ns.braces"
+                []
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+4]..[106,1688+7])
+                Pexp_ident "==" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+4]..[106,1688+7])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+2]..[106,1688+3])
+                    Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+2]..[106,1688+3])
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+8]..[106,1688+9])
+                    Pexp_ident "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[106,1688+8]..[106,1688+9])
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[108,1700+0]..[111,1747+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[108,1700+5]..[108,1700+13])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[108,1700+5]..[108,1700+13])
+                  Pexp_construct "OP_EQUAL" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[108,1700+5]..[108,1700+13])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+4]..[109,1715+8])
+          Ppat_var "=" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+4]..[109,1715+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+11]..[111,1747+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+12]..[109,1715+13])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+12]..[109,1715+13])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+15]..[111,1747+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+15]..[109,1715+16])
+              Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[109,1715+15]..[109,1715+16])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+2]..[110,1738+8])
+              attribute "ns.braces"
+                []
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+4]..[110,1738+6])
+                Pexp_ident "=" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+4]..[110,1738+6])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+2]..[110,1738+3])
+                    Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+2]..[110,1738+3])
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+7]..[110,1738+8])
+                    Pexp_ident "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[110,1738+7]..[110,1738+8])
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[112,1749+0]..[115,1795+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[112,1749+5]..[112,1749+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[112,1749+5]..[112,1749+11])
+                  Pexp_construct "OP_AND" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[112,1749+5]..[112,1749+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+4]..[113,1762+9])
+          Ppat_var "&&" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+4]..[113,1762+9])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+12]..[115,1795+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+13]..[113,1762+14])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+13]..[113,1762+14])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+16]..[115,1795+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+16]..[113,1762+17])
+              Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[113,1762+16]..[113,1762+17])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+2]..[114,1786+8])
+              attribute "ns.braces"
+                []
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+4]..[114,1786+6])
+                Pexp_ident "&&" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+4]..[114,1786+6])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+2]..[114,1786+3])
+                    Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+2]..[114,1786+3])
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+7]..[114,1786+8])
+                    Pexp_ident "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[114,1786+7]..[114,1786+8])
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[116,1797+0]..[119,1842+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[116,1797+5]..[116,1797+10])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[116,1797+5]..[116,1797+10])
+                  Pexp_construct "OP_OR" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[116,1797+5]..[116,1797+10])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+4]..[117,1809+9])
+          Ppat_var "||" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+4]..[117,1809+9])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+12]..[119,1842+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+13]..[117,1809+14])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+13]..[117,1809+14])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+16]..[119,1842+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+16]..[117,1809+17])
+              Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[117,1809+16]..[117,1809+17])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+2]..[118,1833+8])
+              attribute "ns.braces"
+                []
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+4]..[118,1833+6])
+                Pexp_ident "||" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+4]..[118,1833+6])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+2]..[118,1833+3])
+                    Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+2]..[118,1833+3])
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+7]..[118,1833+8])
+                    Pexp_ident "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[118,1833+7]..[118,1833+8])
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[120,1844+0]..[123,1903+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[120,1844+5]..[120,1844+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[120,1844+5]..[120,1844+11])
+                  Pexp_construct "OP_ADD" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[120,1844+5]..[120,1844+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+4]..[121,1857+8])
+          Ppat_var "+" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+4]..[121,1857+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+11]..[123,1903+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+12]..[121,1857+13])
+            Ppat_constraint
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+12]..[121,1857+13])
+              Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+12]..[121,1857+13])
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+15]..[121,1857+18])
+              Ptyp_constr "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+15]..[121,1857+18])
+              []
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+20]..[123,1903+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+20]..[121,1857+21])
+              Ppat_constraint
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+20]..[121,1857+21])
+                Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+20]..[121,1857+21])
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+23]..[121,1857+26])
+                Ptyp_constr "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+23]..[121,1857+26])
+                []
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+2]..[121,1857+32])
+              Pexp_constraint
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+2]..[122,1895+7])
+                attribute "ns.braces"
+                  []
+                Pexp_apply
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+4]..[122,1895+5])
+                  Pexp_ident "+" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+4]..[122,1895+5])
+                [
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+2]..[122,1895+3])
+                      Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+2]..[122,1895+3])
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+6]..[122,1895+7])
+                      Pexp_ident "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[122,1895+6]..[122,1895+7])
+                ]
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+29]..[121,1857+32])
+                Ptyp_constr "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[121,1857+29]..[121,1857+32])
+                []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[124,1905+0]..[127,1966+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[124,1905+5]..[124,1905+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[124,1905+5]..[124,1905+11])
+                  Pexp_construct "OP_CAT" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[124,1905+5]..[124,1905+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+4]..[125,1918+8])
+          Ppat_var "^" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+4]..[125,1918+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+11]..[127,1966+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+12]..[125,1918+13])
+            Ppat_constraint
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+12]..[125,1918+13])
+              Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+12]..[125,1918+13])
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+15]..[125,1918+21])
+              Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+15]..[125,1918+21])
+              []
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+23]..[127,1966+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+23]..[125,1918+24])
+              Ppat_constraint
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+23]..[125,1918+24])
+                Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+23]..[125,1918+24])
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+26]..[125,1918+32])
+                Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[125,1918+26]..[125,1918+32])
+                []
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+2]..[126,1957+8])
+              attribute "ns.braces"
+                []
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+4]..[126,1957+6])
+                Pexp_ident "^" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+4]..[126,1957+6])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+2]..[126,1957+3])
+                    Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+2]..[126,1957+3])
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+7]..[126,1957+8])
+                    Pexp_ident "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[126,1957+7]..[126,1957+8])
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[129,1969+0]..[132,2013+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[129,1969+5]..[129,1969+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[129,1969+5]..[129,1969+11])
+                  Pexp_construct "OP_SUB" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[129,1969+5]..[129,1969+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+4]..[130,1982+8])
+          Ppat_var "-" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+4]..[130,1982+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+11]..[132,2013+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+12]..[130,1982+13])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+12]..[130,1982+13])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+15]..[132,2013+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+15]..[130,1982+16])
+              Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[130,1982+15]..[130,1982+16])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+2]..[131,2005+7])
+              attribute "ns.braces"
+                []
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+4]..[131,2005+5])
+                Pexp_ident "-" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+4]..[131,2005+5])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+2]..[131,2005+3])
+                    Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+2]..[131,2005+3])
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+6]..[131,2005+7])
+                    Pexp_ident "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[131,2005+6]..[131,2005+7])
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[133,2015+0]..[136,2059+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[133,2015+5]..[133,2015+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[133,2015+5]..[133,2015+11])
+                  Pexp_construct "OP_DIV" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[133,2015+5]..[133,2015+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+4]..[134,2028+8])
+          Ppat_var "/" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+4]..[134,2028+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+11]..[136,2059+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+12]..[134,2028+13])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+12]..[134,2028+13])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+15]..[136,2059+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+15]..[134,2028+16])
+              Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[134,2028+15]..[134,2028+16])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+2]..[135,2051+7])
+              attribute "ns.braces"
+                []
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+4]..[135,2051+5])
+                Pexp_ident "/" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+4]..[135,2051+5])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+2]..[135,2051+3])
+                    Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+2]..[135,2051+3])
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+6]..[135,2051+7])
+                    Pexp_ident "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[135,2051+6]..[135,2051+7])
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[137,2061+0]..[140,2105+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[137,2061+5]..[137,2061+11])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[137,2061+5]..[137,2061+11])
+                  Pexp_construct "OP_MUL" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[137,2061+5]..[137,2061+11])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+4]..[138,2074+8])
+          Ppat_var "*" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+4]..[138,2074+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+11]..[140,2105+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+12]..[138,2074+13])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+12]..[138,2074+13])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+15]..[140,2105+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+15]..[138,2074+16])
+              Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[138,2074+15]..[138,2074+16])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+2]..[139,2097+7])
+              attribute "ns.braces"
+                []
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+4]..[139,2097+5])
+                Pexp_ident "*" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+4]..[139,2097+5])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+2]..[139,2097+3])
+                    Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+2]..[139,2097+3])
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+6]..[139,2097+7])
+                    Pexp_ident "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[139,2097+6]..[139,2097+7])
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[141,2107+0]..[144,2165+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[141,2107+5]..[141,2107+19])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[141,2107+5]..[141,2107+19])
+                  Pexp_construct "OP_GREATERTHAN" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[141,2107+5]..[141,2107+19])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+4]..[142,2128+8])
+          Ppat_var ">" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+4]..[142,2128+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+11]..[144,2165+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+12]..[142,2128+13])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+12]..[142,2128+13])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+15]..[144,2165+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+15]..[142,2128+16])
+              Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+15]..[142,2128+16])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+2]..[142,2128+23])
+              Pexp_constraint
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+2]..[143,2157+7])
+                attribute "ns.braces"
+                  []
+                Pexp_apply
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+4]..[143,2157+5])
+                  Pexp_ident ">" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+4]..[143,2157+5])
+                [
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+2]..[143,2157+3])
+                      Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+2]..[143,2157+3])
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+6]..[143,2157+7])
+                      Pexp_ident "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[143,2157+6]..[143,2157+7])
+                ]
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+19]..[142,2128+23])
+                Ptyp_constr "bool" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[142,2128+19]..[142,2128+23])
+                []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[145,2167+0]..[148,2234+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[145,2167+5]..[145,2167+26])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[145,2167+5]..[145,2167+26])
+                  Pexp_construct "OP_GREATERTHANOREQUAL" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[145,2167+5]..[145,2167+26])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+4]..[146,2195+9])
+          Ppat_var ">=" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+4]..[146,2195+9])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+12]..[148,2234+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+13]..[146,2195+14])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+13]..[146,2195+14])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+16]..[148,2234+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+16]..[146,2195+17])
+              Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+16]..[146,2195+17])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+2]..[146,2195+24])
+              Pexp_constraint
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+2]..[147,2225+8])
+                attribute "ns.braces"
+                  []
+                Pexp_apply
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+4]..[147,2225+6])
+                  Pexp_ident ">=" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+4]..[147,2225+6])
+                [
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+2]..[147,2225+3])
+                      Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+2]..[147,2225+3])
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+7]..[147,2225+8])
+                      Pexp_ident "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[147,2225+7]..[147,2225+8])
+                ]
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+20]..[146,2195+24])
+                Ptyp_constr "bool" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[146,2195+20]..[146,2195+24])
+                []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[149,2236+0]..[152,2291+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[149,2236+5]..[149,2236+16])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[149,2236+5]..[149,2236+16])
+                  Pexp_construct "OP_LESSTHAN" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[149,2236+5]..[149,2236+16])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+4]..[150,2254+8])
+          Ppat_var "<" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+4]..[150,2254+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+11]..[152,2291+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+12]..[150,2254+13])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+12]..[150,2254+13])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+15]..[152,2291+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+15]..[150,2254+16])
+              Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+15]..[150,2254+16])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+2]..[150,2254+23])
+              Pexp_constraint
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+2]..[151,2283+7])
+                attribute "ns.braces"
+                  []
+                Pexp_apply
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+4]..[151,2283+5])
+                  Pexp_ident "<" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+4]..[151,2283+5])
+                [
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+2]..[151,2283+3])
+                      Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+2]..[151,2283+3])
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+6]..[151,2283+7])
+                      Pexp_ident "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[151,2283+6]..[151,2283+7])
+                ]
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+19]..[150,2254+23])
+                Ptyp_constr "bool" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[150,2254+19]..[150,2254+23])
+                []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[153,2293+0]..[156,2357+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[153,2293+5]..[153,2293+23])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[153,2293+5]..[153,2293+23])
+                  Pexp_construct "OP_LESSTHANOREQUAL" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[153,2293+5]..[153,2293+23])
+                  None
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+4]..[154,2318+9])
+          Ppat_var "<=" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+4]..[154,2318+9])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+12]..[156,2357+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+13]..[154,2318+14])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+13]..[154,2318+14])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+16]..[156,2357+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+16]..[154,2318+17])
+              Ppat_var "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+16]..[154,2318+17])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+2]..[154,2318+24])
+              Pexp_constraint
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+2]..[155,2348+8])
+                attribute "ns.braces"
+                  []
+                Pexp_apply
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+4]..[155,2348+6])
+                  Pexp_ident "<=" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+4]..[155,2348+6])
+                [
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+2]..[155,2348+3])
+                      Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+2]..[155,2348+3])
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+7]..[155,2348+8])
+                      Pexp_ident "b" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[155,2348+7]..[155,2348+8])
+                ]
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+20]..[154,2318+24])
+                Ptyp_constr "bool" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[154,2318+20]..[154,2318+24])
+                []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+0]..[161,2414+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "asm"
+            [
+              structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+5]..[158,2360+22])
+                Pstr_eval
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+5]..[158,2360+22])
+                  Pexp_array
+                  [
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+6]..[158,2360+13])
+                      Pexp_construct "OP_TUCK" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+6]..[158,2360+13])
+                      None
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+15]..[158,2360+21])
+                      Pexp_construct "OP_VER" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[158,2360+15]..[158,2360+21])
+                      None
+                  ]
+            ]
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[159,2384+4]..[159,2384+7])
+          Ppat_var "foo" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[159,2384+4]..[159,2384+7])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[159,2384+10]..[161,2414+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[159,2384+10]..[159,2384+11])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[159,2384+10]..[159,2384+11])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+7]..[160,2401+11])
+            Pexp_letmodule "J" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+2]..[160,2401+6])
+            module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+2]..[160,2401+6])
+              Pmod_structure
+              [
+                structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+2]..[160,2401+6])
+                  Pstr_primitive
+                  value_description "unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+2]..[160,2401+6]) (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+2]..[160,2401+6])
+                    core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                      Ptyp_arrow
+                      Nolabel
+                      core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                        Ptyp_any
+                      core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                        Ptyp_any
+                    [
+                      "#raw_expr"
+                    ]
+              ]
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+2]..[160,2401+6])
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+2]..[160,2401+6])
+                Pexp_ident "J.unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+2]..[160,2401+6])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[160,2401+7]..[160,2401+11])
+                    Pexp_constant PConst_string("{}",None)
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[163,2417+0]..[165,2444+1])
+    Pstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[163,2417+4]..[163,2417+11])
+          Ppat_var "= []" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[163,2417+4]..[163,2417+11])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[163,2417+14]..[165,2444+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[163,2417+14]..[163,2417+15])
+            Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[163,2417+14]..[163,2417+15])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[164,2438+2]..[164,2438+5])
+            attribute "ns.braces"
+              []
+            Pexp_array
+            [
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[164,2438+3]..[164,2438+4])
+                Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[164,2438+3]..[164,2438+4])
+            ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+0]..[184,2952+1])
+    Pstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+4]..[182,2911+8])
+          Ppat_var "loop" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+4]..[182,2911+8])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+11]..[184,2952+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+12]..[182,2911+14])
+            Ppat_var "fn" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+12]..[182,2911+14])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+16]..[184,2952+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+16]..[182,2911+21])
+              Ppat_constraint
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+16]..[182,2911+21])
+                Ppat_var "times" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+16]..[182,2911+21])
+              core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+23]..[182,2911+26])
+                Ptyp_constr "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[182,2911+23]..[182,2911+26])
+                []
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[183,2944+2]..[183,2944+7])
+              attribute "ns.braces"
+                []
+              Pexp_apply
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[183,2944+2]..[183,2944+4])
+                Pexp_ident "fn" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[183,2944+2]..[183,2944+4])
+              [
+                <arg>
+                Nolabel
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[183,2944+5]..[183,2944+6])
+                    Pexp_constant PConst_int (1,None)
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[185,2954+0]..[188,3049+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "bitcoin"
+            []
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+4]..[186,2963+9])
+          Ppat_var "slice" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+4]..[186,2963+9])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+12]..[188,3049+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+13]..[186,2963+18])
+            Ppat_constraint
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+13]..[186,2963+18])
+              Ppat_var "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+13]..[186,2963+18])
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+20]..[186,2963+25])
+              Ptyp_constr "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+20]..[186,2963+25])
+              []
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+27]..[188,3049+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+27]..[186,2963+32])
+              Ppat_var "start" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+27]..[186,2963+32])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+34]..[188,3049+1])
+              Pexp_fun
+              Nolabel
+              None
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+34]..[186,2963+38])
+                Ppat_var "end_" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[186,2963+34]..[186,2963+38])
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+29]..[187,3008+34])
+                Pexp_apply
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+29]..[187,3008+34])
+                  Pexp_ident "split" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+29]..[187,3008+34])
+                [
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+2]..[187,3008+27])
+                      Pexp_apply
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+23]..[187,3008+27])
+                        Pexp_ident "drop" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+23]..[187,3008+27])
+                      [
+                        <arg>
+                        Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+9]..[187,3008+14])
+                            Pexp_apply
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+9]..[187,3008+14])
+                              Pexp_ident "split" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+9]..[187,3008+14])
+                            [
+                              <arg>
+                              Nolabel
+                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+2]..[187,3008+7])
+                                  Pexp_ident "bytes" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+2]..[187,3008+7])
+                              <arg>
+                              Nolabel
+                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+15]..[187,3008+20])
+                                  Pexp_ident "start" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+15]..[187,3008+20])
+                            ]
+                      ]
+                  <arg>
+                  Nolabel
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+35]..[187,3008+39])
+                      Pexp_ident "end_" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[187,3008+35]..[187,3008+39])
+                ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[189,3051+0]..[192,3177+1])
+    Pstr_value Nonrec
+    [
+      <def>
+          attribute "bitcoin"
+            []
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+4]..[190,3060+15])
+          Ppat_var "sliceString" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+4]..[190,3060+15])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+18]..[192,3177+1])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+19]..[190,3060+25])
+            Ppat_constraint
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+19]..[190,3060+25])
+              Ppat_var "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+19]..[190,3060+25])
+            core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+27]..[190,3060+33])
+              Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+27]..[190,3060+33])
+              []
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+35]..[192,3177+1])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+35]..[190,3060+40])
+              Ppat_var "start" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+35]..[190,3060+40])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+42]..[192,3177+1])
+              Pexp_fun
+              Nolabel
+              None
+              pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+42]..[190,3060+46])
+                Ppat_var "end_" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+42]..[190,3060+46])
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+2]..[190,3060+55])
+                Pexp_constraint
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+36]..[191,3121+41])
+                  Pexp_apply
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+36]..[191,3121+41])
+                    Pexp_ident "split" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+36]..[191,3121+41])
+                  [
+                    <arg>
+                    Nolabel
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+2]..[191,3121+34])
+                        Pexp_apply
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+30]..[191,3121+34])
+                          Pexp_ident "drop" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+30]..[191,3121+34])
+                        [
+                          <arg>
+                          Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+2]..[191,3121+28])
+                              Pexp_apply
+                              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+24]..[191,3121+28])
+                                Pexp_ident "swap" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+24]..[191,3121+28])
+                              [
+                                <arg>
+                                Nolabel
+                                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+10]..[191,3121+15])
+                                    Pexp_apply
+                                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+10]..[191,3121+15])
+                                      Pexp_ident "split" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+10]..[191,3121+15])
+                                    [
+                                      <arg>
+                                      Nolabel
+                                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+2]..[191,3121+8])
+                                          Pexp_ident "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+2]..[191,3121+8])
+                                      <arg>
+                                      Nolabel
+                                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+16]..[191,3121+21])
+                                          Pexp_ident "start" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+16]..[191,3121+21])
+                                    ]
+                              ]
+                        ]
+                    <arg>
+                    Nolabel
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+42]..[191,3121+54])
+                        Pexp_apply
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+47]..[191,3121+48])
+                          Pexp_ident "-" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+47]..[191,3121+48])
+                        [
+                          <arg>
+                          Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+42]..[191,3121+46])
+                              Pexp_ident "end_" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+42]..[191,3121+46])
+                          <arg>
+                          Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+49]..[191,3121+54])
+                              Pexp_ident "start" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[191,3121+49]..[191,3121+54])
+                        ]
+                  ]
+                core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+49]..[190,3060+55])
+                  Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[190,3060+49]..[190,3060+55])
+                  []
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+0]..[203,3330+3])
+    Pstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+4]..[199,3254+9])
+          Ppat_var "|!" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+4]..[199,3254+9])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+12]..[203,3330+3])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+13]..[199,3254+14])
+            Ppat_var "o" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+13]..[199,3254+14])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+16]..[203,3330+3])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+16]..[199,3254+17])
+              Ppat_var "d" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[199,3254+16]..[199,3254+17])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[200,3276+2]..[203,3330+3])
+              Pexp_match
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[200,3276+9]..[200,3276+10])
+                Pexp_ident "o" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[200,3276+9]..[200,3276+10])
+              [
+                <case>
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+4]..[201,3289+8])
+                    Ppat_construct "None" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+4]..[201,3289+8])
+                    None
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+12]..[201,3289+23])
+                    Pexp_apply
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+12]..[201,3289+20])
+                      Pexp_ident "failwith" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+12]..[201,3289+20])
+                    [
+                      <arg>
+                      Nolabel
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+21]..[201,3289+22])
+                          Pexp_ident "d" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[201,3289+21]..[201,3289+22])
+                    ]
+                <case>
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[202,3313+4]..[202,3313+11])
+                    Ppat_construct "Some" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[202,3313+4]..[202,3313+8])
+                    Some
+                      pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[202,3313+9]..[202,3313+10])
+                        Ppat_var "v" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[202,3313+9]..[202,3313+10])
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[202,3313+15]..[202,3313+16])
+                    Pexp_ident "v" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[202,3313+15]..[202,3313+16])
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+0]..[209,3417+3])
+    Pstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+4]..[205,3335+11])
+          Ppat_var "|?>>" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+4]..[205,3335+11])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+14]..[209,3417+3])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+15]..[205,3335+16])
+            Ppat_var "o" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+15]..[205,3335+16])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+18]..[209,3417+3])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+18]..[205,3335+20])
+              Ppat_var "fn" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[205,3335+18]..[205,3335+20])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[206,3360+2]..[209,3417+3])
+              Pexp_match
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[206,3360+9]..[206,3360+10])
+                Pexp_ident "o" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[206,3360+9]..[206,3360+10])
+              [
+                <case>
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[207,3373+4]..[207,3373+8])
+                    Ppat_construct "None" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[207,3373+4]..[207,3373+8])
+                    None
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[207,3373+12]..[207,3373+16])
+                    Pexp_construct "None" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[207,3373+12]..[207,3373+16])
+                    None
+                <case>
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+4]..[208,3390+11])
+                    Ppat_construct "Some" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+4]..[208,3390+8])
+                    Some
+                      pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+9]..[208,3390+10])
+                        Ppat_var "v" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+9]..[208,3390+10])
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+15]..[208,3390+26])
+                    Pexp_construct "Some" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+15]..[208,3390+19])
+                    Some
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+20]..[208,3390+25])
+                        Pexp_apply
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+20]..[208,3390+22])
+                          Pexp_ident "fn" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+20]..[208,3390+22])
+                        [
+                          <arg>
+                          Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+23]..[208,3390+24])
+                              Pexp_ident "v" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[208,3390+23]..[208,3390+24])
+                        ]
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+0]..[217,3549+3])
+    Pstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+4]..[213,3474+10])
+          Ppat_var "|?>" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+4]..[213,3474+10])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+13]..[217,3549+3])
+          Pexp_fun
+          Nolabel
+          None
+          pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+14]..[213,3474+15])
+            Ppat_var "o" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+14]..[213,3474+15])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+17]..[217,3549+3])
+            Pexp_fun
+            Nolabel
+            None
+            pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+17]..[213,3474+19])
+              Ppat_var "fn" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[213,3474+17]..[213,3474+19])
+            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[214,3498+2]..[217,3549+3])
+              Pexp_match
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[214,3498+9]..[214,3498+10])
+                Pexp_ident "o" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[214,3498+9]..[214,3498+10])
+              [
+                <case>
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[215,3511+4]..[215,3511+8])
+                    Ppat_construct "None" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[215,3511+4]..[215,3511+8])
+                    None
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[215,3511+12]..[215,3511+16])
+                    Pexp_construct "None" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[215,3511+12]..[215,3511+16])
+                    None
+                <case>
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+4]..[216,3528+11])
+                    Ppat_construct "Some" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+4]..[216,3528+8])
+                    Some
+                      pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+9]..[216,3528+10])
+                        Ppat_var "v" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+9]..[216,3528+10])
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+15]..[216,3528+20])
+                    Pexp_apply
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+15]..[216,3528+17])
+                      Pexp_ident "fn" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+15]..[216,3528+17])
+                    [
+                      <arg>
+                      Nolabel
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+18]..[216,3528+19])
+                          Pexp_ident "v" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[216,3528+18]..[216,3528+19])
+                    ]
+              ]
+    ]
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[228,3825+0]..[242,4148+1])
+    Pstr_module
+    "String" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[229,3834+7]..[229,3834+13])
+      attribute "bitcoin"
+        []
+      module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[229,3834+16]..[242,4148+1])
+        Pmod_structure
+        [
+          structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[230,3852+2]..[233,3925+3])
+            Pstr_value Nonrec
+            [
+              <def>
+                  attribute "asm"
+                    [
+                      structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[230,3852+7]..[230,3852+14])
+                        Pstr_eval
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[230,3852+7]..[230,3852+14])
+                          Pexp_construct "OP_SIZE" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[230,3852+7]..[230,3852+14])
+                          None
+                    ]
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+6]..[231,3868+12])
+                  Ppat_var "length" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+6]..[231,3868+12])
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+15]..[233,3925+3])
+                  Pexp_fun
+                  Nolabel
+                  None
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+16]..[231,3868+22])
+                    Ppat_constraint
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+16]..[231,3868+22])
+                      Ppat_var "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+16]..[231,3868+22])
+                    core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+24]..[231,3868+30])
+                      Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+24]..[231,3868+30])
+                      []
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]..[231,3868+36])
+                    Pexp_constraint
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+9]..[232,3910+13])
+                      Pexp_letmodule "J" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]..[232,3910+8])
+                      module_expr (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]..[232,3910+8])
+                        Pmod_structure
+                        [
+                          structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]..[232,3910+8])
+                            Pstr_primitive
+                            value_description "unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]..[232,3910+8]) (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]..[232,3910+8])
+                              core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                                Ptyp_arrow
+                                Nolabel
+                                core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                                  Ptyp_any
+                                core_type (_none_[1,0+-1]..[1,0+-1]) ghost
+                                  Ptyp_any
+                              [
+                                "#raw_expr"
+                              ]
+                        ]
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]..[232,3910+8])
+                        Pexp_apply
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]..[232,3910+8])
+                          Pexp_ident "J.unsafe_expr" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+4]..[232,3910+8])
+                        [
+                          <arg>
+                          Nolabel
+                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[232,3910+9]..[232,3910+13])
+                              Pexp_constant PConst_string("{}",None)
+                        ]
+                    core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+33]..[231,3868+36])
+                      Ptyp_constr "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[231,3868+33]..[231,3868+36])
+                      []
+            ]
+          structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+2]..[236,4044+3])
+            Pstr_value Nonrec
+            [
+              <def>
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+6]..[234,3929+11])
+                  Ppat_var "slice" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+6]..[234,3929+11])
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+14]..[236,4044+3])
+                  Pexp_fun
+                  Nolabel
+                  None
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+15]..[234,3929+21])
+                    Ppat_constraint
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+15]..[234,3929+21])
+                      Ppat_var "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+15]..[234,3929+21])
+                    core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+23]..[234,3929+29])
+                      Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+23]..[234,3929+29])
+                      []
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+31]..[236,4044+3])
+                    Pexp_fun
+                    Nolabel
+                    None
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+31]..[234,3929+36])
+                      Ppat_var "start" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+31]..[234,3929+36])
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+38]..[236,4044+3])
+                      Pexp_fun
+                      Nolabel
+                      None
+                      pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+38]..[234,3929+42])
+                        Ppat_var "end_" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+38]..[234,3929+42])
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+4]..[234,3929+51])
+                        Pexp_constraint
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+38]..[235,3986+43])
+                          Pexp_apply
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+38]..[235,3986+43])
+                            Pexp_ident "split" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+38]..[235,3986+43])
+                          [
+                            <arg>
+                            Nolabel
+                              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+4]..[235,3986+36])
+                                Pexp_apply
+                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+32]..[235,3986+36])
+                                  Pexp_ident "drop" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+32]..[235,3986+36])
+                                [
+                                  <arg>
+                                  Nolabel
+                                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+4]..[235,3986+30])
+                                      Pexp_apply
+                                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+26]..[235,3986+30])
+                                        Pexp_ident "swap" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+26]..[235,3986+30])
+                                      [
+                                        <arg>
+                                        Nolabel
+                                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+12]..[235,3986+17])
+                                            Pexp_apply
+                                            expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+12]..[235,3986+17])
+                                              Pexp_ident "split" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+12]..[235,3986+17])
+                                            [
+                                              <arg>
+                                              Nolabel
+                                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+4]..[235,3986+10])
+                                                  Pexp_ident "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+4]..[235,3986+10])
+                                              <arg>
+                                              Nolabel
+                                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+18]..[235,3986+23])
+                                                  Pexp_ident "start" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+18]..[235,3986+23])
+                                            ]
+                                      ]
+                                ]
+                            <arg>
+                            Nolabel
+                              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+44]..[235,3986+56])
+                                Pexp_apply
+                                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+49]..[235,3986+50])
+                                  Pexp_ident "-" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+49]..[235,3986+50])
+                                [
+                                  <arg>
+                                  Nolabel
+                                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+44]..[235,3986+48])
+                                      Pexp_ident "end_" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+44]..[235,3986+48])
+                                  <arg>
+                                  Nolabel
+                                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+51]..[235,3986+56])
+                                      Pexp_ident "start" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[235,3986+51]..[235,3986+56])
+                                ]
+                          ]
+                        core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+45]..[234,3929+51])
+                          Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[234,3929+45]..[234,3929+51])
+                          []
+            ]
+          structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[238,4049+2]..[241,4144+3])
+            Pstr_value Nonrec
+            [
+              <def>
+                  attribute "asm"
+                    [
+                      structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[238,4049+7]..[238,4049+17])
+                        Pstr_eval
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[238,4049+7]..[238,4049+17])
+                          Pexp_construct "OP_BIN2NUM" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[238,4049+7]..[238,4049+17])
+                          None
+                    ]
+                pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+6]..[239,4068+19])
+                  Ppat_var "string_of_int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+6]..[239,4068+19])
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+22]..[241,4144+3])
+                  Pexp_fun
+                  Nolabel
+                  None
+                  pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+23]..[239,4068+24])
+                    Ppat_constraint
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+23]..[239,4068+24])
+                      Ppat_var "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+23]..[239,4068+24])
+                    core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+26]..[239,4068+29])
+                      Ptyp_constr "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+26]..[239,4068+29])
+                      []
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+31]..[241,4144+3])
+                    Pexp_fun
+                    Nolabel
+                    None
+                    pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+31]..[239,4068+34])
+                      Ppat_var "int" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+31]..[239,4068+34])
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+5]..[239,4068+43])
+                      Pexp_constraint
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+5]..[240,4117+25])
+                        attribute "ns.braces"
+                          []
+                        Pexp_constraint
+                        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+5]..[240,4117+17])
+                          Pexp_apply
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+5]..[240,4117+14])
+                            Pexp_ident "Obj.magic" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+5]..[240,4117+14])
+                          [
+                            <arg>
+                            Nolabel
+                              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+15]..[240,4117+16])
+                                Pexp_ident "a" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+15]..[240,4117+16])
+                          ]
+                        core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+19]..[240,4117+25])
+                          Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[240,4117+19]..[240,4117+25])
+                          []
+                      core_type (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+37]..[239,4068+43])
+                        Ptyp_constr "string" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Script.res[239,4068+37]..[239,4068+43])
+                        []
+            ]
+        ]
+]
