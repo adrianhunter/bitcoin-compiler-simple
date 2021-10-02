@@ -1,0 +1,11 @@
+[
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[1,0+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[1,0+11])
+    Tstr_value Nonrec
+    [
+      <def>
+        pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[1,0+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[1,0+5])
+          Tpat_var "a/1002"
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[1,0+8]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Foo.res[1,0+11])
+          Texp_constant Const_int 123
+    ]
+]
