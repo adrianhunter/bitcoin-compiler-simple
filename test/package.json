@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-watch test:all",
+    "test:all": "rescript clean && rescript build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-watch": "^0.11.0",
+    "rescript": "^9.1.4"
+  },
+  "watch": {
+    "test:all": {
+      "patterns": [
+        "../_esy/default/store/b"
+      ],
+      "extensions": "exe",
+      "ignore": "node_modules",
+      "delay": 500,
+      "quiet": true,
+      "verbose": false,
+      "silent": true,
+      "legacyWatch": false,
+      "runOnChangeOnly": false
+    }
+  }
+}

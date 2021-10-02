@@ -1,0 +1,39 @@
+{
+  "name": "bitcoin",
+  "devDpendencies": {
+    "ocaml": "*",
+    "@opam/ocaml-lsp-server": "*"
+  },
+  "dependencies": {
+    "ocaml": "*",
+    "@opam/js_of_ocaml-compiler": "*",
+    "@opam/js_of_ocaml": "*",
+    "@opam/js_of_ocaml-ppx": "*",
+    "@esy-ocaml/reason": "*",
+    "@reason-native/console": "*",
+    "@opam/ppx_tools_versioned": "*",
+    "@opam/dune": "1.6.0",
+    "@opam/yojson": "*",
+    "@opam/ppxlib": "*",
+    "@opam/uutf": "*",
+    "@opam/hex": "*"
+  },
+  "esy": {
+    "build": "dune build -p bitcoin -w"
+  },
+  "installConfig": {
+    "pnp": false
+  },
+  "resolutions": {
+    "ocaml": {
+      "source": "esy-ocaml/ocaml#1805622dc40c1c569a1720078b5707eeba32b07d",
+      "override": {
+        "build": [
+          "./esy-configure -no-cfi -cc \"gcc -Wno-implicit-function-declaration\" -prefix $cur__install",
+          "./esy-build"
+        ]
+      }
+    }
+  }
+}
+

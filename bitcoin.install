@@ -1,0 +1,19 @@
+lib: [
+  "/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/_esy/default/store/b/bitcoin-89d81627/install/default/lib/bitcoin/META" {"META"}
+  "/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/_esy/default/store/b/bitcoin-89d81627/install/default/lib/bitcoin/compiler/BitcoinCompiler.cmi" {"compiler/BitcoinCompiler.cmi"}
+  "/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/_esy/default/store/b/bitcoin-89d81627/install/default/lib/bitcoin/compiler/BitcoinCompiler.cmt" {"compiler/BitcoinCompiler.cmt"}
+  "/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/_esy/default/store/b/bitcoin-89d81627/install/default/lib/bitcoin/compiler/BitcoinCompiler.cmx" {"compiler/BitcoinCompiler.cmx"}
+  "/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/_esy/default/store/b/bitcoin-89d81627/install/default/lib/bitcoin/compiler/BitcoinCompiler.re" {"compiler/BitcoinCompiler.re"}
+  "/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/_esy/default/store/b/bitcoin-89d81627/install/default/lib/bitcoin/compiler/bitcoin.compiler.dune" {"compiler/bitcoin.compiler.dune"}
+  "/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/_esy/default/store/b/bitcoin-89d81627/install/default/lib/bitcoin/compiler/bitcoinCompiler.a" {"compiler/bitcoinCompiler.a"}
+  "/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/_esy/default/store/b/bitcoin-89d81627/install/default/lib/bitcoin/compiler/bitcoinCompiler.cma" {"compiler/bitcoinCompiler.cma"}
+  "/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/_esy/default/store/b/bitcoin-89d81627/install/default/lib/bitcoin/compiler/bitcoinCompiler.cmxa" {"compiler/bitcoinCompiler.cmxa"}
+  "/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/_esy/default/store/b/bitcoin-89d81627/install/default/lib/bitcoin/compiler/bitcoinCompiler.cmxs" {"compiler/bitcoinCompiler.cmxs"}
+  "/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/_esy/default/store/b/bitcoin-89d81627/install/default/lib/bitcoin/opam" {"opam"}
+]
+bin: [
+  "/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/_esy/default/store/b/bitcoin-89d81627/install/default/bin/bitcoin.compile" {"bitcoin.compile"}
+]
+doc: [
+  "/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/_esy/default/store/b/bitcoin-89d81627/install/default/doc/bitcoin/README.md"
+]

@@ -1,0 +1,6 @@
+(executable
+  (name compile)
+  (modules compile)
+  (public_name bitcoin.compile)
+  (libraries   ppxlib compiler-libs str bitcoin.compiler)
+)

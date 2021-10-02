@@ -1,0 +1,8 @@
+(library
+  (name bitcoinCompiler)
+  (public_name bitcoin.compiler)
+  (libraries  ppxlib unix str console.lib)
+
+  ; (pps ppx_tools_versioned.metaquot_406 ))
+  ; (flags (:standard -w -11-26-8-35-32-6-30-9-33-27))
+)

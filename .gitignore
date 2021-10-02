@@ -1,0 +1,8 @@
+node_modules
+esy.lock
+.vscode
+_esy
+**/*/.merlin
+test/lib
+test/node_modules
+test/.bsb.lock

@@ -1,0 +1,34 @@
+{
+    "name": "bitcoin-compiler-tests",
+    "version": "0.0.1",
+    "sources": [
+      {
+        "dir": "src",
+        "subdirs": true
+      },
+  
+    
+    ],
+   
+    "package-specs": [
+      {
+        "module": "es6-global",
+        "in-source": true
+      },
+   
+    ],
+
+    "suffix": ".bs.js",
+    "warnings": {
+      "number": "+A-9",
+      "error": "+101"
+    },
+    "js-post-build": {
+  
+        "cmd": "../_esy/default/store/b/bitcoin-89d81627/default/bin/compile.exe"
+    },
+    "use-stdlib": true,
+    "generate-merlin": false,
+
+  
+  }
