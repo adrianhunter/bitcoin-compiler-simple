@@ -147,7 +147,7 @@ let get_structure_item = (valdecla: Types.value_description) => {
   result.contents;
 };
 
-let get_value_declaration = (loc: Location.t, ttree) => {
+let get_value_declaration = (locSearch: Location.t, ttree) => {
   let result = ref(None);
 
   let mapper = {
@@ -157,8 +157,9 @@ let get_value_declaration = (loc: Location.t, ttree) => {
       switch (expr.exp_desc) {
       | Texp_ident(a, {loc as identLoc}, valueDecla) =>
         //   let loc_start =
+        // let string = Utils.string_of_ident(a);
         let _ =
-          if (identLoc == loc) {
+          if (identLoc == locSearch) {
             result := Some(valueDecla);
           };
 
@@ -177,12 +178,14 @@ let get_structure_from_loc = (loc: Location.t, ttree) => {
   open Location;
   let result = ref(None);
 
+
   let value_decla = get_value_declaration(loc, ttree);
 
   //   let cool =
   switch (value_decla) {
   | Some(valueDecla) =>
     let loc = valueDecla.val_loc;
+
     let (line, col, path) =
       switch (loc) {
       | {loc_start, loc_end} => (
@@ -291,11 +294,11 @@ let get_typed_structure_item = (valdecla: Types.value_description) => {
            };
 
            ();
-         })//    ();
-           ; //         });
-           //  | [@implicit_arity] Parsetree.Pstr_eval(_, _) => ()
-    }  //           }
- //             }
+         }); //    ();
+    }  //         });
+ //           }
+    //  | [@implicit_arity] Parsetree.Pstr_eval(_, _) => ()
+    //             }
     //  | Parsetree.Pstr_primitive(_) => ()
     //               result := Some((flag, binding));
     //  | [@implicit_arity] Parsetree.Pstr_type(_, _) => ()

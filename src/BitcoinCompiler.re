@@ -61,12 +61,11 @@ let compile = (~filename: string, str: Typedtree.structure) => {
       | None => expr
       | Some((flags, binding)) =>
         switch (binding.pvb_attributes |> Utils.extractAsm) {
-        | None =>
-          binding.pvb_expr;
+        | None => binding.pvb_expr
         | Some(asm) =>
           asm |> List.iter(op_code_string => op_code_string |> print);
           expr;
-        };
+        }
       };
 
     | [@implicit_arity] Parsetree.Pexp_let(_, _, _)
@@ -129,6 +128,4 @@ let compile = (~filename: string, str: Typedtree.structure) => {
 
   // save the compile result as a .script file
   write(~filename=filename ++ ".script", result.contents);
-
-  log("DONE");
 };
