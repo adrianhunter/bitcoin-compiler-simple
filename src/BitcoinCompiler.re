@@ -75,12 +75,28 @@ let write = (~filename, data) => {
   close_out(oc);
 };
 
+let printTrees = (~filename, ptree, ttree) => {
+  let parseTreeFormatter =
+    Format.formatter_of_out_channel(open_out(filename ++ ".ast"));
+
+  Printast.implementation(parseTreeFormatter, ptree);
+
+  let typedFormatter =
+    Format.formatter_of_out_channel(open_out(filename ++ ".typed.ast"));
+
+  Printtyped.implementation(typedFormatter, ttree);
+};
+
 let compile = (~filename: string, str: Typedtree.structure) => {
   // reset result, just in case
   result := "";
 
   // transform typedtree and parsetree, it faster and simpler, if we need type info, we will query the typedtree later
   let parsetree = Untypeast.untype_structure(str);
+
+  // print Typedtree and Parsetree to know what's going on, can also use https://astexplorer.net/ but not 100% correct
+
+  printTrees(~filename, parsetree, str);
 
   // just the default mapper from the ocaml compiler libs to map over every element of the parsetree
   mapper.structure(mapper, parsetree) |> ignore;
