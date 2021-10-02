@@ -1,13 +1,13 @@
 [
   structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[1,0+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[1,0+11])
     Tstr_open Fresh "Script!"
-  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[4,56+1])
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+0]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[4,60+1])
     Tstr_value Nonrec
     [
       <def>
         pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+4]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+20])
           Tpat_var "complexOperation/1002"
-        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[4,56+1])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[4,60+1])
           Texp_function
           Nolabel
           [
@@ -15,7 +15,7 @@
               pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+23]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+25])
                 Tpat_construct "()"
                 []
-              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+12])
+              expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+2]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+16])
                 attribute "ns.braces"
                   []
                 Texp_apply
@@ -40,8 +40,20 @@
                       ]
                   <arg>
                     Nolabel
-                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+12])
-                      Texp_constant Const_int 3
+                    expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+16])
+                      Texp_apply
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+13]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+14])
+                        Texp_ident "Script!./"
+                      [
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+11]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+12])
+                            Texp_constant Const_int 3
+                        <arg>
+                          Nolabel
+                          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+15]../Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+16])
+                            Texp_constant Const_int 3
+                      ]
                 ]
           ]
     ]

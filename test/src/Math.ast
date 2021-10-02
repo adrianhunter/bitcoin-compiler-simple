@@ -1,20 +1,20 @@
 [
   structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[1,0+0]..[1,0+11])
     Pstr_open Fresh "Script" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[1,0+5]..[1,0+11])
-  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+0]..[4,56+1])
+  structure_item (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+0]..[4,60+1])
     Pstr_value Nonrec
     [
       <def>
         pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+4]..[2,12+20])
           Ppat_var "complexOperation" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+4]..[2,12+20])
-        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+23]..[4,56+1])
+        expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+23]..[4,60+1])
           Pexp_fun
           Nolabel
           None
           pattern (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+23]..[2,12+25])
             Ppat_construct "()" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[2,12+23]..[2,12+25])
             None
-          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+2]..[3,43+12])
+          expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+2]..[3,43+16])
             attribute "ns.braces"
               []
             Pexp_apply
@@ -39,8 +39,20 @@
                   ]
               <arg>
               Nolabel
-                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+11]..[3,43+12])
-                  Pexp_constant PConst_int (3,None)
+                expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+11]..[3,43+16])
+                  Pexp_apply
+                  expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+13]..[3,43+14])
+                    Pexp_ident "/" (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+13]..[3,43+14])
+                  [
+                    <arg>
+                    Nolabel
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+11]..[3,43+12])
+                        Pexp_constant PConst_int (3,None)
+                    <arg>
+                    Nolabel
+                      expression (/Users/adrian/dev/kitto/kscript/bitcoin-compiler-simple/test/src/Math.res[3,43+15]..[3,43+16])
+                        Pexp_constant PConst_int (3,None)
+                  ]
             ]
     ]
 ]

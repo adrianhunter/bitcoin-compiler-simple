@@ -3,7 +3,7 @@
 import * as Script from "./Script.bs.js";
 
 function complexOperation(param) {
-  return Script.$neg(Script.$plus(5, 10), 3);
+  return Script.$neg(Script.$plus(5, 10), Script.$slash(3, 3));
 }
 
 export {

@@ -12,32 +12,6 @@ let getEnv = (cmt: Cmt_format.cmt_infos) => {
   };
 };
 
-// let get_initial_env = (file_name: string): Env.t => {
-//   let (_, cmt) = Cmt_format.read(file_name);
-//   switch (cmt) {
-//   | Some({
-//       Cmt_format.cmt_initial_env: env,
-//       cmt_loadpath,
-//       cmt_annots: Implementation(str),
-//     }) =>
-//     Config.load_path :=
-//       cmt_loadpath
-//       |> List.append([
-//            "/Users/adrian/dev/kscript/bitcoin-compiler/script/node_modules/rescript/lib/ocaml",
-//          ]);
-
-//     /* We call [env_of_only_summary] else the environment is empty
-//           (contains only the summary) and cannot be searched.
-//        */
-//     try(Envaux.env_of_only_summary(str.str_final_env)) {
-//     | Envaux.Error(error) =>
-//       Envaux.report_error(Format.str_formatter, error);
-//       failwith(Format.flush_str_formatter());
-//     };
-//   | _ => failwith("Cannot extract cmt data.")
-//   };
-// };
-
 let getCmtPath = path => {
   let in_source = true;
   let suffix = ".res";
@@ -156,8 +130,6 @@ let get_value_declaration = (locSearch: Location.t, ttree) => {
     expr: (mapper, expr) => {
       switch (expr.exp_desc) {
       | Texp_ident(a, {loc as identLoc}, valueDecla) =>
-        //   let loc_start =
-        // let string = Utils.string_of_ident(a);
         let _ =
           if (identLoc == locSearch) {
             result := Some(valueDecla);
@@ -177,15 +149,10 @@ let get_value_declaration = (locSearch: Location.t, ttree) => {
 let get_structure_from_loc = (loc: Location.t, ttree) => {
   open Location;
   let result = ref(None);
-
-
   let value_decla = get_value_declaration(loc, ttree);
-
-  //   let cool =
   switch (value_decla) {
   | Some(valueDecla) =>
     let loc = valueDecla.val_loc;
-
     let (line, col, path) =
       switch (loc) {
       | {loc_start, loc_end} => (
@@ -237,12 +204,9 @@ let get_structure_from_loc = (loc: Location.t, ttree) => {
     ) {
     | e => ()
     };
-
     result.contents;
-
   | None => result.contents
   };
-  //   result.contents;
 };
 
 let get_typed_structure_item = (valdecla: Types.value_description) => {
@@ -294,36 +258,8 @@ let get_typed_structure_item = (valdecla: Types.value_description) => {
            };
 
            ();
-         }); //    ();
-    }  //         });
- //           }
-    //  | [@implicit_arity] Parsetree.Pstr_eval(_, _) => ()
-    //             }
-    //  | Parsetree.Pstr_primitive(_) => ()
-    //               result := Some((flag, binding));
-    //  | [@implicit_arity] Parsetree.Pstr_type(_, _) => ()
-    //                 - loc_start.pos_bol == col) {
-    //  | Parsetree.Pstr_typext(_) => ()
-    //                 && loc_start.pos_cnum
-    //  | Parsetree.Pstr_exception(_) => ()
-    //             if (loc_start.pos_lnum == line
-    //  | Parsetree.Pstr_module(_) => ()
-    //           | {loc_start, loc_end, loc_ghost} =>
-    //  | Parsetree.Pstr_recmodule(_) => ()
-    //           switch (binding.pvb_loc) {
-    //  | Parsetree.Pstr_modtype(_) => ()
-    //      |> List.map((binding: Parsetree.value_binding) => {
-    //  | Parsetree.Pstr_open(_) => ()
-    //      bindings
-    //  | Parsetree.Pstr_class(_) => ()
-    //    let _ =
-    //  | Parsetree.Pstr_class_type(_) => ()
-    //  | [@implicit_arity] Parsetree.Pstr_value(flag, bindings) =>
-    //  | Parsetree.Pstr_include(_) => ()
-    //  switch (stri.pstr_desc) {
-    //  | Parsetree.Pstr_attribute(_) => ()
-    //  | [@implicit_arity] Parsetree.Pstr_extension(_, _) => ()
-    //  }
+         }); 
+    }  
     |> ignore
   ) {
   | e => ()

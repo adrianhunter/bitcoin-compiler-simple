@@ -6,16 +6,6 @@ let print = stuff => {
   result := result.contents ++ stuff ++ " ";
 };
 
-let rec string_of_ident = (expr: Longident.t) => {
-  switch (expr) {
-  | Migrate_parsetree.Ast_406.Longident.Lident(string) => string
-  | [@implicit_arity] Migrate_parsetree.Ast_406.Longident.Ldot(a, b) =>
-    string_of_ident(a) ++ "." ++ b
-  | [@implicit_arity] Migrate_parsetree.Ast_406.Longident.Lapply(a, b) =>
-    string_of_ident(a) ++ string_of_ident(b)
-  };
-};
-
 // Currently it only prints constant values from the parsetree and writes them down
 
 let write = (~filename, data) => {
